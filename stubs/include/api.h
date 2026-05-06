@@ -1,0 +1,40 @@
+#pragma once
+
+// Core PROS API - umbrella include for simulator stubs
+
+// C headers
+#include "pros/error.h"
+#include "pros/rtos.h"
+#include "pros/motors.h"
+#include "pros/misc.h"
+#include "pros/imu.h"
+#include "pros/rotation.h"
+#include "pros/distance.h"
+#include "pros/optical.h"
+#include "pros/vision.h"
+#include "pros/gps.h"
+#include "pros/device.h"
+#include "pros/serial.h"
+#include "pros/link.h"
+#include "pros/screen.h"
+#include "pros/colors.h"
+
+// C++ headers
+#include "pros/rtos.hpp"
+#include "pros/device.hpp"
+#include "pros/abstract_motor.hpp"
+#include "pros/motors.hpp"
+#include "pros/misc.hpp"
+#include "pros/imu.hpp"
+#include "pros/rotation.hpp"
+#include "pros/distance.hpp"
+#include "pros/optical.hpp"
+#include "pros/vision.hpp"
+#include "pros/gps.hpp"
+#include "pros/serial.hpp"
+#include "pros/link.hpp"
+#include "pros/screen.hpp"
+#include "pros/llemu.h"
+#include "pros/llemu.hpp"
+#include "pros/adi.hpp"
+#include "pros/colors.hpp"

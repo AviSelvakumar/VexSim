@@ -1,0 +1,1348 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/4.0.2/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dpi9gg"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dpi9gg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dpi9gg'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3a608\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3a608.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3a608.dir\\build
+        Building CXX object CMakeFiles/cmTC_3a608.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3a608.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dpi9gg" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm5C89.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_3a608.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_3a608.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3a608.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm5EDC.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_3a608.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3a608.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3a608.dir/manifest.res CMakeFiles\\cmTC_3a608.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3a608.dir\\objects1.rsp /out:cmTC_3a608.exe /implib:cmTC_3a608.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dpi9gg\\cmTC_3a608.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3a608.dir/intermediate.manifest CMakeFiles\\cmTC_3a608.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_3a608.dir/intermediate.manifest /out:CMakeFiles\\cmTC_3a608.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3a608.dir/manifest.res CMakeFiles\\cmTC_3a608.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3a608.dir\\objects1.rsp /out:cmTC_3a608.exe /implib:cmTC_3a608.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dpi9gg\\cmTC_3a608.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3a608.dir/intermediate.manifest CMakeFiles\\cmTC_3a608.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:9 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nmd4jx"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nmd4jx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nmd4jx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_d92ef\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_d92ef.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d92ef.dir\\build
+        Building C object CMakeFiles/cmTC_d92ef.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d92ef.dir\\CMakeCCompilerABI.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nmd4jx" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmACDC.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_d92ef.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_d92ef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d92ef.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmAE05.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_d92ef.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_d92ef.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d92ef.dir/manifest.res CMakeFiles\\cmTC_d92ef.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d92ef.dir\\objects1.rsp /out:cmTC_d92ef.exe /implib:cmTC_d92ef.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nmd4jx\\cmTC_d92ef.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d92ef.dir/intermediate.manifest CMakeFiles\\cmTC_d92ef.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_d92ef.dir/intermediate.manifest /out:CMakeFiles\\cmTC_d92ef.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d92ef.dir/manifest.res CMakeFiles\\cmTC_d92ef.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d92ef.dir\\objects1.rsp /out:cmTC_d92ef.exe /implib:cmTC_d92ef.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nmd4jx\\cmTC_d92ef.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d92ef.dir/intermediate.manifest CMakeFiles\\cmTC_d92ef.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:9 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:82 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-6igsxb"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-6igsxb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-6igsxb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3090a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3090a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3090a.dir\\build
+        Building C object CMakeFiles/cmTC_3090a.dir/CheckSymbolExists.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3090a.dir\\CheckSymbolExists.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6igsxb" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB41F.tmp
+        CheckSymbolExists.c
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6igsxb\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3090a.dir\\CheckSymbolExists.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6igsxb" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB41F.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3090a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3090a.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:139 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-xvny5k"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-xvny5k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X86"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-xvny5k'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_725bd\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_725bd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_725bd.dir\\build
+        Building C object CMakeFiles/cmTC_725bd.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_725bd.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xvny5k" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB661.tmp
+        src.c
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xvny5k\\src.c(6): error C2065: 'choke': undeclared identifier
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xvny5k\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_725bd.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xvny5k" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB661.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_725bd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_725bd.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:30 (_internal_check_cpu_architecture)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:140 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X64"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-19k1ez"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-19k1ez"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-19k1ez'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_a781a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_a781a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_a781a.dir\\build
+        Building C object CMakeFiles/cmTC_a781a.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a781a.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-19k1ez" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB874.tmp
+        src.c
+        Linking C executable cmTC_a781a.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_a781a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a781a.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmB940.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_a781a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a781a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a781a.dir/manifest.res CMakeFiles\\cmTC_a781a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a781a.dir\\objects1.rsp /out:cmTC_a781a.exe /implib:cmTC_a781a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-19k1ez\\cmTC_a781a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a781a.dir/intermediate.manifest CMakeFiles\\cmTC_a781a.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a781a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a781a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a781a.dir/manifest.res CMakeFiles\\cmTC_a781a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a781a.dir\\objects1.rsp /out:cmTC_a781a.exe /implib:cmTC_a781a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-19k1ez\\cmTC_a781a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a781a.dir/intermediate.manifest CMakeFiles\\cmTC_a781a.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:32 (_internal_check_cpu_architecture)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:141 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM32"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-x0fpth"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-x0fpth"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_ARM32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-x0fpth'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_37b66\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_37b66.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_37b66.dir\\build
+        Building C object CMakeFiles/cmTC_37b66.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_37b66.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x0fpth" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmBE21.tmp
+        src.c
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x0fpth\\src.c(6): error C2065: 'choke': undeclared identifier
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x0fpth\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_37b66.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x0fpth" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmBE21.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_37b66.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_37b66.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:34 (_internal_check_cpu_architecture)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:142 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM64"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-z2yv4s"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-z2yv4s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_ARM64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-z2yv4s'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_5f095\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_5f095.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5f095.dir\\build
+        Building C object CMakeFiles/cmTC_5f095.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5f095.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2yv4s" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC064.tmp
+        src.c
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2yv4s\\src.c(6): error C2065: 'choke': undeclared identifier
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2yv4s\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5f095.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2yv4s" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC064.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_5f095.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5f095.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:36 (_internal_check_cpu_architecture)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:143 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-thfm8e"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-thfm8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_LOONGARCH64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-thfm8e'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_addfd\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_addfd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_addfd.dir\\build
+        Building C object CMakeFiles/cmTC_addfd.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_addfd.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-thfm8e" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC2B5.tmp
+        src.c
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-thfm8e\\src.c(6): error C2065: 'choke': undeclared identifier
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-thfm8e\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_addfd.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-thfm8e" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC2B5.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_addfd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_addfd.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1003 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-0xilvn"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-0xilvn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-0xilvn'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_461bf\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_461bf.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_461bf.dir\\build
+        Building C object CMakeFiles/cmTC_461bf.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_461bf.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-0xilvn" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC5C3.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_461bf.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_461bf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_461bf.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmC70C.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_461bf.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_461bf.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_461bf.dir/manifest.res CMakeFiles\\cmTC_461bf.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_461bf.dir\\objects1.rsp /out:cmTC_461bf.exe /implib:cmTC_461bf.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-0xilvn\\cmTC_461bf.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_461bf.dir/intermediate.manifest CMakeFiles\\cmTC_461bf.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_461bf.dir/intermediate.manifest /out:CMakeFiles\\cmTC_461bf.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_461bf.dir/manifest.res CMakeFiles\\cmTC_461bf.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_461bf.dir\\objects1.rsp /out:cmTC_461bf.exe /implib:cmTC_461bf.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-0xilvn\\cmTC_461bf.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_461bf.dir/intermediate.manifest CMakeFiles\\cmTC_461bf.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1166 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ph92f1"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ph92f1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ph92f1'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_00d16\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_00d16.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_00d16.dir\\build
+        Building C object CMakeFiles/cmTC_00d16.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_00d16.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ph92f1" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmCBFC.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_00d16.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_00d16.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_00d16.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmCD36.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_00d16.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_00d16.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_00d16.dir/manifest.res CMakeFiles\\cmTC_00d16.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_00d16.dir\\objects1.rsp /out:cmTC_00d16.exe /implib:cmTC_00d16.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ph92f1\\cmTC_00d16.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_00d16.dir/intermediate.manifest CMakeFiles\\cmTC_00d16.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_00d16.dir/intermediate.manifest /out:CMakeFiles\\cmTC_00d16.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_00d16.dir/manifest.res CMakeFiles\\cmTC_00d16.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_00d16.dir\\objects1.rsp /out:cmTC_00d16.exe /implib:cmTC_00d16.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ph92f1\\cmTC_00d16.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_00d16.dir/intermediate.manifest CMakeFiles\\cmTC_00d16.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1768 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-w4qmjv"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-w4qmjv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-w4qmjv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_8069e\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_8069e.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_8069e.dir\\build
+        Building C object CMakeFiles/cmTC_8069e.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_8069e.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-w4qmjv" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmD459.tmp
+        src.c
+        Linking C executable cmTC_8069e.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_8069e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8069e.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmD6CB.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_8069e.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_8069e.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_8069e.dir/manifest.res CMakeFiles\\cmTC_8069e.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8069e.dir\\objects1.rsp /out:cmTC_8069e.exe /implib:cmTC_8069e.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-w4qmjv\\cmTC_8069e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8069e.dir/intermediate.manifest CMakeFiles\\cmTC_8069e.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_8069e.dir/intermediate.manifest /out:CMakeFiles\\cmTC_8069e.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_8069e.dir/manifest.res CMakeFiles\\cmTC_8069e.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8069e.dir\\objects1.rsp /out:cmTC_8069e.exe /implib:cmTC_8069e.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-w4qmjv\\cmTC_8069e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8069e.dir/intermediate.manifest CMakeFiles\\cmTC_8069e.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1810 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-zuwlxf"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-zuwlxf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-zuwlxf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_06227\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_06227.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_06227.dir\\build
+        Building C object CMakeFiles/cmTC_06227.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_06227.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-zuwlxf" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmDB5E.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_06227.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_06227.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_06227.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmDD34.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_06227.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_06227.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_06227.dir/manifest.res CMakeFiles\\cmTC_06227.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_06227.dir\\objects1.rsp /out:cmTC_06227.exe /implib:cmTC_06227.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-zuwlxf\\cmTC_06227.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_06227.dir/intermediate.manifest CMakeFiles\\cmTC_06227.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_06227.dir/intermediate.manifest /out:CMakeFiles\\cmTC_06227.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_06227.dir/manifest.res CMakeFiles\\cmTC_06227.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_06227.dir\\objects1.rsp /out:cmTC_06227.exe /implib:cmTC_06227.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-zuwlxf\\cmTC_06227.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_06227.dir/intermediate.manifest CMakeFiles\\cmTC_06227.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1811 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-vtjyzc"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-vtjyzc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-vtjyzc'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_6c6a2\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_6c6a2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_6c6a2.dir\\build
+        Building C object CMakeFiles/cmTC_6c6a2.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_6c6a2.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-vtjyzc" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmE2EF.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_6c6a2.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_6c6a2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6c6a2.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmE523.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_6c6a2.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_6c6a2.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_6c6a2.dir/manifest.res CMakeFiles\\cmTC_6c6a2.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6c6a2.dir\\objects1.rsp /out:cmTC_6c6a2.exe /implib:cmTC_6c6a2.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-vtjyzc\\cmTC_6c6a2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6c6a2.dir/intermediate.manifest CMakeFiles\\cmTC_6c6a2.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_6c6a2.dir/intermediate.manifest /out:CMakeFiles\\cmTC_6c6a2.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_6c6a2.dir/manifest.res CMakeFiles\\cmTC_6c6a2.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6c6a2.dir\\objects1.rsp /out:cmTC_6c6a2.exe /implib:cmTC_6c6a2.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-vtjyzc\\cmTC_6c6a2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6c6a2.dir/intermediate.manifest CMakeFiles\\cmTC_6c6a2.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1812 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-izy3t2"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-izy3t2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-izy3t2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_979e2\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_979e2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_979e2.dir\\build
+        Building C object CMakeFiles/cmTC_979e2.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_979e2.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-izy3t2" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmE9A6.tmp
+        src.c
+        Linking C executable cmTC_979e2.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_979e2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_979e2.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmEB9B.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_979e2.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_979e2.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_979e2.dir/manifest.res CMakeFiles\\cmTC_979e2.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_979e2.dir\\objects1.rsp /out:cmTC_979e2.exe /implib:cmTC_979e2.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-izy3t2\\cmTC_979e2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_979e2.dir/intermediate.manifest CMakeFiles\\cmTC_979e2.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_979e2.dir/intermediate.manifest /out:CMakeFiles\\cmTC_979e2.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_979e2.dir/manifest.res CMakeFiles\\cmTC_979e2.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_979e2.dir\\objects1.rsp /out:cmTC_979e2.exe /implib:cmTC_979e2.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-izy3t2\\cmTC_979e2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_979e2.dir/intermediate.manifest CMakeFiles\\cmTC_979e2.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1820 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ti98ke"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ti98ke"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ti98ke'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_518a8\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_518a8.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_518a8.dir\\build
+        Building C object CMakeFiles/cmTC_518a8.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_518a8.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ti98ke" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmF04D.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_518a8.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_518a8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_518a8.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmF2BF.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_518a8.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_518a8.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_518a8.dir/manifest.res CMakeFiles\\cmTC_518a8.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_518a8.dir\\objects1.rsp /out:cmTC_518a8.exe /implib:cmTC_518a8.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ti98ke\\cmTC_518a8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_518a8.dir/intermediate.manifest CMakeFiles\\cmTC_518a8.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_518a8.dir/intermediate.manifest /out:CMakeFiles\\cmTC_518a8.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_518a8.dir/manifest.res CMakeFiles\\cmTC_518a8.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_518a8.dir\\objects1.rsp /out:cmTC_518a8.exe /implib:cmTC_518a8.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ti98ke\\cmTC_518a8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_518a8.dir/intermediate.manifest CMakeFiles\\cmTC_518a8.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1821 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ioi3nh"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ioi3nh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-ioi3nh'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_d8b49\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_d8b49.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d8b49.dir\\build
+        Building C object CMakeFiles/cmTC_d8b49.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d8b49.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ioi3nh" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmF9D3.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_d8b49.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_d8b49.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d8b49.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmFC64.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_d8b49.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_d8b49.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d8b49.dir/manifest.res CMakeFiles\\cmTC_d8b49.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d8b49.dir\\objects1.rsp /out:cmTC_d8b49.exe /implib:cmTC_d8b49.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ioi3nh\\cmTC_d8b49.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d8b49.dir/intermediate.manifest CMakeFiles\\cmTC_d8b49.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_d8b49.dir/intermediate.manifest /out:CMakeFiles\\cmTC_d8b49.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d8b49.dir/manifest.res CMakeFiles\\cmTC_d8b49.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d8b49.dir\\objects1.rsp /out:cmTC_d8b49.exe /implib:cmTC_d8b49.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ioi3nh\\cmTC_d8b49.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d8b49.dir/intermediate.manifest CMakeFiles\\cmTC_d8b49.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1822 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-v4dur9"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-v4dur9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-v4dur9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_108d6\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_108d6.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_108d6.dir\\build
+        Building C object CMakeFiles/cmTC_108d6.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_108d6.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4dur9" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmA9.tmp
+        CheckIncludeFile.c
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Linking C executable cmTC_108d6.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_108d6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_108d6.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm27E.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_108d6.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_108d6.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_108d6.dir/manifest.res CMakeFiles\\cmTC_108d6.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_108d6.dir\\objects1.rsp /out:cmTC_108d6.exe /implib:cmTC_108d6.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4dur9\\cmTC_108d6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_108d6.dir/intermediate.manifest CMakeFiles\\cmTC_108d6.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_108d6.dir/intermediate.manifest /out:CMakeFiles\\cmTC_108d6.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_108d6.dir/manifest.res CMakeFiles\\cmTC_108d6.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_108d6.dir\\objects1.rsp /out:cmTC_108d6.exe /implib:cmTC_108d6.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4dur9\\cmTC_108d6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_108d6.dir/intermediate.manifest CMakeFiles\\cmTC_108d6.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1826 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rj9voy"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rj9voy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rj9voy'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_11ad9\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_11ad9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_11ad9.dir\\build
+        Building C object CMakeFiles/cmTC_11ad9.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_11ad9.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rj9voy" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm694.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_11ad9.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_11ad9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_11ad9.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm86A.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_11ad9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_11ad9.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_11ad9.dir/manifest.res CMakeFiles\\cmTC_11ad9.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_11ad9.dir\\objects1.rsp /out:cmTC_11ad9.exe /implib:cmTC_11ad9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rj9voy\\cmTC_11ad9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_11ad9.dir/intermediate.manifest CMakeFiles\\cmTC_11ad9.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_11ad9.dir/intermediate.manifest /out:CMakeFiles\\cmTC_11ad9.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_11ad9.dir/manifest.res CMakeFiles\\cmTC_11ad9.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_11ad9.dir\\objects1.rsp /out:cmTC_11ad9.exe /implib:cmTC_11ad9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rj9voy\\cmTC_11ad9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_11ad9.dir/intermediate.manifest CMakeFiles\\cmTC_11ad9.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1840 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-srhx7k"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-srhx7k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-srhx7k'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_e80e3\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_e80e3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_e80e3.dir\\build
+        Building C object CMakeFiles/cmTC_e80e3.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_e80e3.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-srhx7k" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nmCED.tmp
+        src.c
+        Linking C executable cmTC_e80e3.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_e80e3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e80e3.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nmEC3.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_e80e3.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_e80e3.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e80e3.dir/manifest.res CMakeFiles\\cmTC_e80e3.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e80e3.dir\\objects1.rsp /out:cmTC_e80e3.exe /implib:cmTC_e80e3.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-srhx7k\\cmTC_e80e3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e80e3.dir/intermediate.manifest CMakeFiles\\cmTC_e80e3.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_e80e3.dir/intermediate.manifest /out:CMakeFiles\\cmTC_e80e3.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e80e3.dir/manifest.res CMakeFiles\\cmTC_e80e3.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e80e3.dir\\objects1.rsp /out:cmTC_e80e3.exe /implib:cmTC_e80e3.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-srhx7k\\cmTC_e80e3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e80e3.dir/intermediate.manifest CMakeFiles\\cmTC_e80e3.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1844 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hoxx6b"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hoxx6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hoxx6b'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_1d6eb\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_1d6eb.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1d6eb.dir\\build
+        Building C object CMakeFiles/cmTC_1d6eb.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1d6eb.dir\\src.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hoxx6b" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm13A4.tmp
+        src.c
+        Linking C executable cmTC_1d6eb.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_1d6eb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d6eb.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm1933.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_1d6eb.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_1d6eb.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1d6eb.dir/manifest.res CMakeFiles\\cmTC_1d6eb.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d6eb.dir\\objects1.rsp /out:cmTC_1d6eb.exe /implib:cmTC_1d6eb.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hoxx6b\\cmTC_1d6eb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d6eb.dir/intermediate.manifest CMakeFiles\\cmTC_1d6eb.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_1d6eb.dir/intermediate.manifest /out:CMakeFiles\\cmTC_1d6eb.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1d6eb.dir/manifest.res CMakeFiles\\cmTC_1d6eb.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1d6eb.dir\\objects1.rsp /out:cmTC_1d6eb.exe /implib:cmTC_1d6eb.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hoxx6b\\cmTC_1d6eb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d6eb.dir/intermediate.manifest CMakeFiles\\cmTC_1d6eb.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1852 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rlng3d"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rlng3d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-rlng3d'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_12ecb\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_12ecb.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_12ecb.dir\\build
+        Building C object CMakeFiles/cmTC_12ecb.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_12ecb.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rlng3d" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm1EC0.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_12ecb.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_12ecb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_12ecb.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm2141.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_12ecb.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_12ecb.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_12ecb.dir/manifest.res CMakeFiles\\cmTC_12ecb.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_12ecb.dir\\objects1.rsp /out:cmTC_12ecb.exe /implib:cmTC_12ecb.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rlng3d\\cmTC_12ecb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_12ecb.dir/intermediate.manifest CMakeFiles\\cmTC_12ecb.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_12ecb.dir/intermediate.manifest /out:CMakeFiles\\cmTC_12ecb.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_12ecb.dir/manifest.res CMakeFiles\\cmTC_12ecb.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_12ecb.dir\\objects1.rsp /out:cmTC_12ecb.exe /implib:cmTC_12ecb.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-rlng3d\\cmTC_12ecb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_12ecb.dir/intermediate.manifest CMakeFiles\\cmTC_12ecb.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1853 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-fzv3ef"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-fzv3ef"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-fzv3ef'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_cc998\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_cc998.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_cc998.dir\\build
+        Building C object CMakeFiles/cmTC_cc998.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_cc998.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-fzv3ef" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm2FF6.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_cc998.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_cc998.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cc998.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm31BC.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_cc998.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_cc998.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_cc998.dir/manifest.res CMakeFiles\\cmTC_cc998.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cc998.dir\\objects1.rsp /out:cmTC_cc998.exe /implib:cmTC_cc998.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-fzv3ef\\cmTC_cc998.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cc998.dir/intermediate.manifest CMakeFiles\\cmTC_cc998.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_cc998.dir/intermediate.manifest /out:CMakeFiles\\cmTC_cc998.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_cc998.dir/manifest.res CMakeFiles\\cmTC_cc998.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cc998.dir\\objects1.rsp /out:cmTC_cc998.exe /implib:cmTC_cc998.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-fzv3ef\\cmTC_cc998.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cc998.dir/intermediate.manifest CMakeFiles\\cmTC_cc998.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1854 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-b8jfsk"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-b8jfsk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-b8jfsk'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_d722c\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_d722c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d722c.dir\\build
+        Building C object CMakeFiles/cmTC_d722c.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d722c.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-b8jfsk" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm366E.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_d722c.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_d722c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d722c.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm3863.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_d722c.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_d722c.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d722c.dir/manifest.res CMakeFiles\\cmTC_d722c.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d722c.dir\\objects1.rsp /out:cmTC_d722c.exe /implib:cmTC_d722c.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-b8jfsk\\cmTC_d722c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d722c.dir/intermediate.manifest CMakeFiles\\cmTC_d722c.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_d722c.dir/intermediate.manifest /out:CMakeFiles\\cmTC_d722c.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d722c.dir/manifest.res CMakeFiles\\cmTC_d722c.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d722c.dir\\objects1.rsp /out:cmTC_d722c.exe /implib:cmTC_d722c.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-b8jfsk\\cmTC_d722c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d722c.dir/intermediate.manifest CMakeFiles\\cmTC_d722c.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1855 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-89nmqf"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-89nmqf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-89nmqf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3d14a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3d14a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3d14a.dir\\build
+        Building C object CMakeFiles/cmTC_3d14a.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3d14a.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-89nmqf" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm3DD1.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_3d14a.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_3d14a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3d14a.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm3FA7.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_3d14a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3d14a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3d14a.dir/manifest.res CMakeFiles\\cmTC_3d14a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3d14a.dir\\objects1.rsp /out:cmTC_3d14a.exe /implib:cmTC_3d14a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-89nmqf\\cmTC_3d14a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3d14a.dir/intermediate.manifest CMakeFiles\\cmTC_3d14a.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_3d14a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_3d14a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3d14a.dir/manifest.res CMakeFiles\\cmTC_3d14a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3d14a.dir\\objects1.rsp /out:cmTC_3d14a.exe /implib:cmTC_3d14a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-89nmqf\\cmTC_3d14a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3d14a.dir/intermediate.manifest CMakeFiles\\cmTC_3d14a.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1856 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-g859jh"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-g859jh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-g859jh'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_f423a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_f423a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_f423a.dir\\build
+        Building C object CMakeFiles/cmTC_f423a.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f423a.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-g859jh" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm492B.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_f423a.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_f423a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f423a.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm4D43.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_f423a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_f423a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f423a.dir/manifest.res CMakeFiles\\cmTC_f423a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f423a.dir\\objects1.rsp /out:cmTC_f423a.exe /implib:cmTC_f423a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-g859jh\\cmTC_f423a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f423a.dir/intermediate.manifest CMakeFiles\\cmTC_f423a.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_f423a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_f423a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f423a.dir/manifest.res CMakeFiles\\cmTC_f423a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f423a.dir\\objects1.rsp /out:cmTC_f423a.exe /implib:cmTC_f423a.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-g859jh\\cmTC_f423a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f423a.dir/intermediate.manifest CMakeFiles\\cmTC_f423a.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build_msvc/_deps/sdl2-src/CMakeLists.txt:1857 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-9tw0bs"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-9tw0bs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/avise/Vex Sim/build_msvc/_deps/sdl2-src/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-9tw0bs'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_2c998\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2c998.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2c998.dir\\build
+        Building C object CMakeFiles/cmTC_2c998.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_2c998.dir\\CheckIncludeFile.c.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-9tw0bs" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm5958.tmp
+        CheckIncludeFile.c
+        Linking C executable cmTC_2c998.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_2c998.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2c998.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm5BCA.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_2c998.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_2c998.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2c998.dir/manifest.res CMakeFiles\\cmTC_2c998.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2c998.dir\\objects1.rsp /out:cmTC_2c998.exe /implib:cmTC_2c998.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-9tw0bs\\cmTC_2c998.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2c998.dir/intermediate.manifest CMakeFiles\\cmTC_2c998.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_2c998.dir/intermediate.manifest /out:CMakeFiles\\cmTC_2c998.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2c998.dir/manifest.res CMakeFiles\\cmTC_2c998.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2c998.dir\\objects1.rsp /out:cmTC_2c998.exe /implib:cmTC_2c998.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-9tw0bs\\cmTC_2c998.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2c998.dir/intermediate.manifest CMakeFiles\\cmTC_2c998.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hxirio"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hxirio"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-hxirio'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_dab50\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_dab50.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_dab50.dir\\build
+        Building CXX object CMakeFiles/cmTC_dab50.dir/src.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_dab50.dir\\src.cxx.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hxirio" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm636A.tmp
+        src.cxx
+        C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hxirio\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_dab50.dir\\src.cxx.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hxirio" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm636A.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_dab50.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_dab50.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-t8ddny"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-t8ddny"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-t8ddny'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_117b9\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_117b9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_117b9.dir\\build
+        Building CXX object CMakeFiles/cmTC_117b9.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_117b9.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-t8ddny" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm66E5.tmp
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_117b9.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_117b9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_117b9.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm67E0.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_117b9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_117b9.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_117b9.dir/manifest.res CMakeFiles\\cmTC_117b9.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_117b9.dir\\objects1.rsp /out:cmTC_117b9.exe /implib:cmTC_117b9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-t8ddny\\cmTC_117b9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_117b9.dir/intermediate.manifest CMakeFiles\\cmTC_117b9.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_117b9.dir\\objects1.rsp /out:cmTC_117b9.exe /implib:cmTC_117b9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-t8ddny\\cmTC_117b9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_117b9.dir/intermediate.manifest CMakeFiles\\cmTC_117b9.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_117b9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_117b9.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm67E0.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_117b9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_117b9.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dhpbdv"
+      binary: "C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dhpbdv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avise/Vex Sim/build_msvc/CMakeFiles/CMakeScratch/TryCompile-dhpbdv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ea5e9\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ea5e9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ea5e9.dir\\build
+        Building CXX object CMakeFiles/cmTC_ea5e9.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ea5e9.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dhpbdv" --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\avise\\AppData\\Local\\Temp\\nm6A40.tmp
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_ea5e9.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_ea5e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea5e9.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm6B1C.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_ea5e9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_ea5e9.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ea5e9.dir/manifest.res CMakeFiles\\cmTC_ea5e9.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea5e9.dir\\objects1.rsp /out:cmTC_ea5e9.exe /implib:cmTC_ea5e9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dhpbdv\\cmTC_ea5e9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ea5e9.dir/intermediate.manifest CMakeFiles\\cmTC_ea5e9.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea5e9.dir\\objects1.rsp /out:cmTC_ea5e9.exe /implib:cmTC_ea5e9.lib /pdb:C:\\Users\\avise\\Vex Sim\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-dhpbdv\\cmTC_ea5e9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ea5e9.dir/intermediate.manifest CMakeFiles\\cmTC_ea5e9.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\\cmTC_ea5e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea5e9.dir\\objects1.rsp @C:\\Users\\avise\\AppData\\Local\\Temp\\nm6B1C.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ea5e9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ea5e9.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...

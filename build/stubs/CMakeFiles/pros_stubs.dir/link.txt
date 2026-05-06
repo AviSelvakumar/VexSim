@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libpros_stubs.a CMakeFiles/pros_stubs.dir/src/rtos.cpp.obj CMakeFiles/pros_stubs.dir/src/motors.cpp.obj CMakeFiles/pros_stubs.dir/src/misc.cpp.obj CMakeFiles/pros_stubs.dir/src/imu.cpp.obj CMakeFiles/pros_stubs.dir/src/rotation.cpp.obj CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libpros_stubs.a
