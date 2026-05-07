@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/avise/Vex Sim/build/_deps/sdl2-build/cmake_install.cmake")
+  include("C:/Users/avise/Vex Sim/build/stubs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/avise/Vex Sim/build/stubs/cmake_install.cmake")
+  include("C:/Users/avise/Vex Sim/build/lemlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

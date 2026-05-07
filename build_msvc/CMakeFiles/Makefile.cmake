@@ -83,6 +83,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/sdl2-src/include/SDL_revision.h.cmake"
   "_deps/sdl2-src/sdl2-config.in"
   "_deps/sdl2-src/sdl2.pc.in"
+  "C:/Users/avise/Vex Sim/lemlib/CMakeLists.txt"
   "C:/Users/avise/Vex Sim/robot/CMakeLists.txt"
   "C:/Users/avise/Vex Sim/sim/CMakeLists.txt"
   "C:/Users/avise/Vex Sim/stubs/CMakeLists.txt"
@@ -107,6 +108,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/sdl2-build/include-config-debug/SDL2/SDL_config.h"
   "_deps/sdl2-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "stubs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lemlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "robot/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sim/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -119,6 +121,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/sdl2-build/CMakeFiles/SDL2_test.dir/DependInfo.cmake"
   "_deps/sdl2-build/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "stubs/CMakeFiles/pros_stubs.dir/DependInfo.cmake"
+  "lemlib/CMakeFiles/lemlib.dir/DependInfo.cmake"
   "robot/CMakeFiles/robot_code.dir/DependInfo.cmake"
   "sim/CMakeFiles/sim_engine.dir/DependInfo.cmake"
   "sim/CMakeFiles/vex_sim.dir/DependInfo.cmake"

@@ -64,6 +64,22 @@ void Physics::step(double dt_sec) {
         state.motors[port].add_position_deg(deg_per_sec * dt_sec);
     }
 
+    // Update dedicated tracking wheel rotation sensors (non-motor ports).
+    // These use their own wheel radius, which may differ from the drive wheels.
+    double tw_circ = 2.0 * M_PI * cfg_.tracking_wheel_radius_px;
+    if (cfg_.tracking_left_port > 0) {
+        double deg_per_sec = (vL / tw_circ) * 360.0;
+        state.motors[cfg_.tracking_left_port].add_position_deg(deg_per_sec * dt_sec);
+    }
+    if (cfg_.tracking_right_port > 0) {
+        double deg_per_sec = (vR / tw_circ) * 360.0;
+        state.motors[cfg_.tracking_right_port].add_position_deg(deg_per_sec * dt_sec);
+    }
+    // Middle (strafe) tracking wheel: in a diff-drive model, lateral velocity = 0.
+    // The port is updated but will always accumulate 0, which is correct —
+    // LemLib uses it to detect sideways slip, and an ideal sim has none.
+    // (Leave tracking_mid_port at 0 for diff-drive robots.)
+
     // Advance simulation clock
     state.sim_millis.fetch_add(static_cast<uint32_t>(dt_sec * 1000.0));
 }

@@ -184,6 +184,19 @@ pros_stubs\fast:
 .PHONY : pros_stubs\fast
 
 #=============================================================================
+# Target rules for targets named lemlib
+
+# Build rule for target.
+lemlib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lemlib
+.PHONY : lemlib
+
+# fast build rule for target.
+lemlib\fast:
+	$(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make /nologo -$(MAKEFLAGS) lemlib\CMakeFiles\lemlib.dir\build
+.PHONY : lemlib\fast
+
+#=============================================================================
 # Target rules for targets named robot_code
 
 # Build rule for target.
@@ -235,6 +248,7 @@ help:
 	@echo ... SDL2-static
 	@echo ... SDL2_test
 	@echo ... SDL2main
+	@echo ... lemlib
 	@echo ... pros_stubs
 	@echo ... robot_code
 	@echo ... sim_engine

@@ -40,6 +40,10 @@ uint32_t micros() { return pros_micros(); }
 Mutex::Mutex() : handle_(new std::mutex()) {}
 Mutex::~Mutex() { delete static_cast<std::mutex*>(handle_); }
 
+bool Mutex::take() {
+    static_cast<std::mutex*>(handle_)->lock();
+    return true;
+}
 bool Mutex::take(uint32_t timeout_ms) {
     static_cast<std::mutex*>(handle_)->lock();
     return true;
@@ -48,8 +52,9 @@ bool Mutex::give() {
     static_cast<std::mutex*>(handle_)->unlock();
     return true;
 }
-void Mutex::lock()   { static_cast<std::mutex*>(handle_)->lock(); }
-void Mutex::unlock() { static_cast<std::mutex*>(handle_)->unlock(); }
+void Mutex::lock()        { static_cast<std::mutex*>(handle_)->lock(); }
+void Mutex::unlock()      { static_cast<std::mutex*>(handle_)->unlock(); }
+void Mutex::lazy_init()   { /* mutex is already initialized in constructor */ }
 
 // ── Task ──────────────────────────────────────────────────────────────────────
 
@@ -68,6 +73,30 @@ Task::Task(std::function<void()> fn, const char*) {
 void Task::suspend() {}
 void Task::resume()  {}
 void Task::remove()  {}
+
+uint32_t Task::notify() { return 0; }
+
+uint32_t Task::notify_take(bool clear_on_exit, uint32_t timeout) {
+    // In the simulator every task notification is immediately available
+    (void)clear_on_exit; (void)timeout;
+    return 0;
+}
+
+task_state_e_t Task::get_state() { return E_TASK_STATE_RUNNING; }
+
+char* Task::get_name() { return const_cast<char*>(""); }
+
+task_t Task::get_current() { return nullptr; }
+
+uint32_t Task::get_priority() { return TASK_PRIORITY_DEFAULT; }
+
+void Task::set_priority(uint32_t priority) { (void)priority; }
+
+void Task::join() {
+    if (handle_) {
+        static_cast<std::thread*>(handle_)->join();
+    }
+}
 
 void Task::delay(uint32_t ms) {
     std::this_thread::sleep_for(std::chrono::milliseconds(ms));

@@ -31,4 +31,13 @@ public:
 };
 
 } // namespace v5
+
+// PROS 4 free-function competition API (used by LemLib)
+namespace competition {
+    uint32_t get_status();
+    bool is_autonomous();
+    bool is_connected();
+    bool is_disabled();
+} // namespace competition
+
 } // namespace pros

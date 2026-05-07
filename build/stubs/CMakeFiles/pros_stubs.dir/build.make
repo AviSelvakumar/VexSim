@@ -161,6 +161,156 @@ stubs/CMakeFiles/pros_stubs.dir/src/llemu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/llemu.cpp.s"
 	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\llemu.cpp" -o CMakeFiles\pros_stubs.dir\src\llemu.cpp.s
 
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/device.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\device.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\device.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\device.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/device.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\device.cpp" > CMakeFiles\pros_stubs.dir\src\device.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/device.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\device.cpp" -o CMakeFiles\pros_stubs.dir\src\device.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/apix.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\apix.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\apix.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\apix.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/apix.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\apix.cpp" > CMakeFiles\pros_stubs.dir\src\apix.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/apix.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\apix.cpp" -o CMakeFiles\pros_stubs.dir\src\apix.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/optical.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\optical.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\optical.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\optical.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/optical.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\optical.cpp" > CMakeFiles\pros_stubs.dir\src\optical.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/optical.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\optical.cpp" -o CMakeFiles\pros_stubs.dir\src\optical.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/gps.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\gps.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\gps.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\gps.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/gps.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\gps.cpp" > CMakeFiles\pros_stubs.dir\src\gps.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/gps.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\gps.cpp" -o CMakeFiles\pros_stubs.dir\src\gps.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/vision.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\vision.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\vision.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\vision.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/vision.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\vision.cpp" > CMakeFiles\pros_stubs.dir\src\vision.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/vision.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\vision.cpp" -o CMakeFiles\pros_stubs.dir\src\vision.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/distance.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\distance.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\distance.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\distance.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/distance.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\distance.cpp" > CMakeFiles\pros_stubs.dir\src\distance.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/distance.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\distance.cpp" -o CMakeFiles\pros_stubs.dir\src\distance.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/serial.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\serial.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\serial.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\serial.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/serial.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\serial.cpp" > CMakeFiles\pros_stubs.dir\src\serial.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/serial.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\serial.cpp" -o CMakeFiles\pros_stubs.dir\src\serial.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/link.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\link.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\link.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\link.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/link.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\link.cpp" > CMakeFiles\pros_stubs.dir\src\link.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/link.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\link.cpp" -o CMakeFiles\pros_stubs.dir\src\link.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/screen.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\screen.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\screen.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\screen.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/screen.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\screen.cpp" > CMakeFiles\pros_stubs.dir\src\screen.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/screen.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\screen.cpp" -o CMakeFiles\pros_stubs.dir\src\screen.cpp.s
+
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/flags.make
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/includes_CXX.rsp
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj: C:/Users/avise/Vex\ Sim/stubs/src/ext_adi.cpp
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj: stubs/CMakeFiles/pros_stubs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj -MF CMakeFiles\pros_stubs.dir\src\ext_adi.cpp.obj.d -o CMakeFiles\pros_stubs.dir\src\ext_adi.cpp.obj -c "C:\Users\avise\Vex Sim\stubs\src\ext_adi.cpp"
+
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\Vex Sim\stubs\src\ext_adi.cpp" > CMakeFiles\pros_stubs.dir\src\ext_adi.cpp.i
+
+stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\stubs && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\Vex Sim\stubs\src\ext_adi.cpp" -o CMakeFiles\pros_stubs.dir\src\ext_adi.cpp.s
+
 # Object files for target pros_stubs
 pros_stubs_OBJECTS = \
 "CMakeFiles/pros_stubs.dir/src/rtos.cpp.obj" \
@@ -168,7 +318,17 @@ pros_stubs_OBJECTS = \
 "CMakeFiles/pros_stubs.dir/src/misc.cpp.obj" \
 "CMakeFiles/pros_stubs.dir/src/imu.cpp.obj" \
 "CMakeFiles/pros_stubs.dir/src/rotation.cpp.obj" \
-"CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj"
+"CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/device.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/apix.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/optical.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/gps.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/vision.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/distance.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/serial.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/link.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/screen.cpp.obj" \
+"CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj"
 
 # External object files for target pros_stubs
 pros_stubs_EXTERNAL_OBJECTS =
@@ -179,9 +339,19 @@ stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/misc.cpp.obj
 stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/imu.cpp.obj
 stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/rotation.cpp.obj
 stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj
+stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj
 stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/build.make
 stubs/libpros_stubs.a: stubs/CMakeFiles/pros_stubs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libpros_stubs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libpros_stubs.a"
 	cd /d C:\Users\avise\VEXSIM~1\build\stubs && $(CMAKE_COMMAND) -P CMakeFiles\pros_stubs.dir\cmake_clean_target.cmake
 	cd /d C:\Users\avise\VEXSIM~1\build\stubs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pros_stubs.dir\link.txt --verbose=$(VERBOSE)
 

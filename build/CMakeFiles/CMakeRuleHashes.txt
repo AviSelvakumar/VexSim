@@ -1,6 +1,4 @@
 # Hashes of file build rules.
-c3e9af6b9860a687e80d805e46f1922c _deps/sdl2-build/CMakeFiles/sdl_headers_copy
-d31207c702713d9b741e7d214c720bef _deps/sdl2-build/CMakeFiles/uninstall
 e4d910229bdf8417bfaae6ce418d1497 _deps/sdl2-build/include/SDL2/SDL.h
 7f6d9d8f9fdf6f5d9ae3613ee3a20d1d _deps/sdl2-build/include/SDL2/SDL_assert.h
 219fe29153cc759c0906e97295b2a37e _deps/sdl2-build/include/SDL2/SDL_atomic.h

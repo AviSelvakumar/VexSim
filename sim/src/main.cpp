@@ -12,17 +12,49 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Robot configuration — edit these to match your robot's port layout
 // ─────────────────────────────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
+// Scaling guide:
+//   The field is 720x720 px representing a 12ft x 12ft VEX field.
+//   1 tile = 120 px = 24 inches  →  1 inch ≈ 5 px  (1 cm ≈ 2 px)
+//
+//   Set wheel_radius_px  = physical_wheel_radius_inches * 5.0
+//   Set track_width_px   = physical_track_width_inches  * 5.0
+//   LemLib TrackingWheel diameter should equal physical_wheel_diameter_inches.
+// ─────────────────────────────────────────────────────────────────────────────
 static sim::RobotConfig makeRobotConfig() {
     sim::RobotConfig cfg;
-    cfg.track_width_px  = 60.0;   // ~20cm track width at 3px/cm
-    cfg.wheel_radius_px = 15.0;   // ~5cm wheel radius
-    cfg.max_rpm         = 200.0;  // 200 RPM (green cartridge)
-    cfg.field_w         = 720.0;
-    cfg.field_h         = 720.0;
-    cfg.robot_half_w    = 20.0;
-    cfg.robot_half_h    = 20.0;
-    cfg.left_ports      = {1, 0, 0, 0};  // port 1 = left motor
-    cfg.right_ports     = {2, 0, 0, 0};  // port 2 = right motor
+
+    // ── Physical dimensions (1 in = 5 px) ────────────────────────────────────
+    // 3.25" diameter drive wheels → radius = 1.625" → ~8px
+    cfg.wheel_radius_px  = 8.0;
+    // 12" track width → 60px
+    cfg.track_width_px   = 60.0;
+    cfg.max_rpm          = 600.0;  // 600 RPM blue cartridge
+
+    cfg.field_w          = 720.0;
+    cfg.field_h          = 720.0;
+    cfg.robot_half_w     = 20.0;
+    cfg.robot_half_h     = 20.0;
+
+    // ── Drive motor ports ─────────────────────────────────────────────────────
+    // Match these to your robot/main.cpp motor port numbers.
+    cfg.left_ports       = {4, 5, 6, 0};
+    cfg.right_ports      = {1, 2, 3, 0};
+
+    // ── Dedicated tracking wheel ports (optional) ─────────────────────────────
+    // If your robot uses pros::Rotation sensors on separate ports for odometry,
+    // set these so the physics engine updates those encoder values.
+    // Leave at 0 to use drive motor encoders only (odometry via Motor::get_position).
+    //
+    // Example: LemLib with 2.75" tracking wheels on ports 7 & 8:
+    //   cfg.tracking_left_port       = 7;
+    //   cfg.tracking_right_port      = 8;
+    //   cfg.tracking_wheel_radius_px = 2.75 / 2.0 * 5.0;  // 6.875 px
+    cfg.tracking_left_port       = 16;
+    cfg.tracking_right_port      = 0;
+    cfg.tracking_mid_port        = 17;     // always 0 for diff-drive
+    cfg.tracking_wheel_radius_px = (2.00 / 2.0) * 5.0; // 2.75" wheel (unused when ports = 0)
+
     return cfg;
 }
 

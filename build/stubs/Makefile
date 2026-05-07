@@ -129,6 +129,126 @@ pros_stubs/fast:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/build
 .PHONY : pros_stubs/fast
 
+src/apix.obj: src/apix.cpp.obj
+.PHONY : src/apix.obj
+
+# target to build an object file
+src/apix.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj
+.PHONY : src/apix.cpp.obj
+
+src/apix.i: src/apix.cpp.i
+.PHONY : src/apix.i
+
+# target to preprocess a source file
+src/apix.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.i
+.PHONY : src/apix.cpp.i
+
+src/apix.s: src/apix.cpp.s
+.PHONY : src/apix.s
+
+# target to generate assembly for a file
+src/apix.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.s
+.PHONY : src/apix.cpp.s
+
+src/device.obj: src/device.cpp.obj
+.PHONY : src/device.obj
+
+# target to build an object file
+src/device.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj
+.PHONY : src/device.cpp.obj
+
+src/device.i: src/device.cpp.i
+.PHONY : src/device.i
+
+# target to preprocess a source file
+src/device.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.i
+.PHONY : src/device.cpp.i
+
+src/device.s: src/device.cpp.s
+.PHONY : src/device.s
+
+# target to generate assembly for a file
+src/device.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.s
+.PHONY : src/device.cpp.s
+
+src/distance.obj: src/distance.cpp.obj
+.PHONY : src/distance.obj
+
+# target to build an object file
+src/distance.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj
+.PHONY : src/distance.cpp.obj
+
+src/distance.i: src/distance.cpp.i
+.PHONY : src/distance.i
+
+# target to preprocess a source file
+src/distance.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.i
+.PHONY : src/distance.cpp.i
+
+src/distance.s: src/distance.cpp.s
+.PHONY : src/distance.s
+
+# target to generate assembly for a file
+src/distance.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.s
+.PHONY : src/distance.cpp.s
+
+src/ext_adi.obj: src/ext_adi.cpp.obj
+.PHONY : src/ext_adi.obj
+
+# target to build an object file
+src/ext_adi.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj
+.PHONY : src/ext_adi.cpp.obj
+
+src/ext_adi.i: src/ext_adi.cpp.i
+.PHONY : src/ext_adi.i
+
+# target to preprocess a source file
+src/ext_adi.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.i
+.PHONY : src/ext_adi.cpp.i
+
+src/ext_adi.s: src/ext_adi.cpp.s
+.PHONY : src/ext_adi.s
+
+# target to generate assembly for a file
+src/ext_adi.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.s
+.PHONY : src/ext_adi.cpp.s
+
+src/gps.obj: src/gps.cpp.obj
+.PHONY : src/gps.obj
+
+# target to build an object file
+src/gps.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj
+.PHONY : src/gps.cpp.obj
+
+src/gps.i: src/gps.cpp.i
+.PHONY : src/gps.i
+
+# target to preprocess a source file
+src/gps.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.i
+.PHONY : src/gps.cpp.i
+
+src/gps.s: src/gps.cpp.s
+.PHONY : src/gps.s
+
+# target to generate assembly for a file
+src/gps.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.s
+.PHONY : src/gps.cpp.s
+
 src/imu.obj: src/imu.cpp.obj
 .PHONY : src/imu.obj
 
@@ -152,6 +272,30 @@ src/imu.s: src/imu.cpp.s
 src/imu.cpp.s:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/imu.cpp.s
 .PHONY : src/imu.cpp.s
+
+src/link.obj: src/link.cpp.obj
+.PHONY : src/link.obj
+
+# target to build an object file
+src/link.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj
+.PHONY : src/link.cpp.obj
+
+src/link.i: src/link.cpp.i
+.PHONY : src/link.i
+
+# target to preprocess a source file
+src/link.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.i
+.PHONY : src/link.cpp.i
+
+src/link.s: src/link.cpp.s
+.PHONY : src/link.s
+
+# target to generate assembly for a file
+src/link.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.s
+.PHONY : src/link.cpp.s
 
 src/llemu.obj: src/llemu.cpp.obj
 .PHONY : src/llemu.obj
@@ -225,6 +369,30 @@ src/motors.cpp.s:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/motors.cpp.s
 .PHONY : src/motors.cpp.s
 
+src/optical.obj: src/optical.cpp.obj
+.PHONY : src/optical.obj
+
+# target to build an object file
+src/optical.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj
+.PHONY : src/optical.cpp.obj
+
+src/optical.i: src/optical.cpp.i
+.PHONY : src/optical.i
+
+# target to preprocess a source file
+src/optical.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.i
+.PHONY : src/optical.cpp.i
+
+src/optical.s: src/optical.cpp.s
+.PHONY : src/optical.s
+
+# target to generate assembly for a file
+src/optical.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.s
+.PHONY : src/optical.cpp.s
+
 src/rotation.obj: src/rotation.cpp.obj
 .PHONY : src/rotation.obj
 
@@ -273,6 +441,78 @@ src/rtos.cpp.s:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/rtos.cpp.s
 .PHONY : src/rtos.cpp.s
 
+src/screen.obj: src/screen.cpp.obj
+.PHONY : src/screen.obj
+
+# target to build an object file
+src/screen.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj
+.PHONY : src/screen.cpp.obj
+
+src/screen.i: src/screen.cpp.i
+.PHONY : src/screen.i
+
+# target to preprocess a source file
+src/screen.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.i
+.PHONY : src/screen.cpp.i
+
+src/screen.s: src/screen.cpp.s
+.PHONY : src/screen.s
+
+# target to generate assembly for a file
+src/screen.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.s
+.PHONY : src/screen.cpp.s
+
+src/serial.obj: src/serial.cpp.obj
+.PHONY : src/serial.obj
+
+# target to build an object file
+src/serial.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj
+.PHONY : src/serial.cpp.obj
+
+src/serial.i: src/serial.cpp.i
+.PHONY : src/serial.i
+
+# target to preprocess a source file
+src/serial.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.i
+.PHONY : src/serial.cpp.i
+
+src/serial.s: src/serial.cpp.s
+.PHONY : src/serial.s
+
+# target to generate assembly for a file
+src/serial.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.s
+.PHONY : src/serial.cpp.s
+
+src/vision.obj: src/vision.cpp.obj
+.PHONY : src/vision.obj
+
+# target to build an object file
+src/vision.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj
+.PHONY : src/vision.cpp.obj
+
+src/vision.i: src/vision.cpp.i
+.PHONY : src/vision.i
+
+# target to preprocess a source file
+src/vision.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.i
+.PHONY : src/vision.cpp.i
+
+src/vision.s: src/vision.cpp.s
+.PHONY : src/vision.s
+
+# target to generate assembly for a file
+src/vision.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.s
+.PHONY : src/vision.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -282,9 +522,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pros_stubs
+	@echo ... src/apix.obj
+	@echo ... src/apix.i
+	@echo ... src/apix.s
+	@echo ... src/device.obj
+	@echo ... src/device.i
+	@echo ... src/device.s
+	@echo ... src/distance.obj
+	@echo ... src/distance.i
+	@echo ... src/distance.s
+	@echo ... src/ext_adi.obj
+	@echo ... src/ext_adi.i
+	@echo ... src/ext_adi.s
+	@echo ... src/gps.obj
+	@echo ... src/gps.i
+	@echo ... src/gps.s
 	@echo ... src/imu.obj
 	@echo ... src/imu.i
 	@echo ... src/imu.s
+	@echo ... src/link.obj
+	@echo ... src/link.i
+	@echo ... src/link.s
 	@echo ... src/llemu.obj
 	@echo ... src/llemu.i
 	@echo ... src/llemu.s
@@ -294,12 +552,24 @@ help:
 	@echo ... src/motors.obj
 	@echo ... src/motors.i
 	@echo ... src/motors.s
+	@echo ... src/optical.obj
+	@echo ... src/optical.i
+	@echo ... src/optical.s
 	@echo ... src/rotation.obj
 	@echo ... src/rotation.i
 	@echo ... src/rotation.s
 	@echo ... src/rtos.obj
 	@echo ... src/rtos.i
 	@echo ... src/rtos.s
+	@echo ... src/screen.obj
+	@echo ... src/screen.i
+	@echo ... src/screen.s
+	@echo ... src/serial.obj
+	@echo ... src/serial.i
+	@echo ... src/serial.s
+	@echo ... src/vision.obj
+	@echo ... src/vision.i
+	@echo ... src/vision.s
 .PHONY : help
 
 

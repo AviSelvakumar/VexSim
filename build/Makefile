@@ -116,71 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sdl_headers_copy
-
-# Build rule for target.
-sdl_headers_copy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sdl_headers_copy
-.PHONY : sdl_headers_copy
-
-# fast build rule for target.
-sdl_headers_copy/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\sdl_headers_copy.dir\build.make _deps/sdl2-build/CMakeFiles/sdl_headers_copy.dir/build
-.PHONY : sdl_headers_copy/fast
-
-#=============================================================================
-# Target rules for targets named SDL2main
-
-# Build rule for target.
-SDL2main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SDL2main
-.PHONY : SDL2main
-
-# fast build rule for target.
-SDL2main/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\SDL2main.dir\build.make _deps/sdl2-build/CMakeFiles/SDL2main.dir/build
-.PHONY : SDL2main/fast
-
-#=============================================================================
-# Target rules for targets named SDL2-static
-
-# Build rule for target.
-SDL2-static: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SDL2-static
-.PHONY : SDL2-static
-
-# fast build rule for target.
-SDL2-static/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\SDL2-static.dir\build.make _deps/sdl2-build/CMakeFiles/SDL2-static.dir/build
-.PHONY : SDL2-static/fast
-
-#=============================================================================
-# Target rules for targets named SDL2_test
-
-# Build rule for target.
-SDL2_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SDL2_test
-.PHONY : SDL2_test
-
-# fast build rule for target.
-SDL2_test/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\SDL2_test.dir\build.make _deps/sdl2-build/CMakeFiles/SDL2_test.dir/build
-.PHONY : SDL2_test/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\uninstall.dir\build.make _deps/sdl2-build/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
 # Target rules for targets named pros_stubs
 
 # Build rule for target.
@@ -192,6 +127,19 @@ pros_stubs: cmake_check_build_system
 pros_stubs/fast:
 	$(MAKE) $(MAKESILENT) -f stubs\CMakeFiles\pros_stubs.dir\build.make stubs/CMakeFiles/pros_stubs.dir/build
 .PHONY : pros_stubs/fast
+
+#=============================================================================
+# Target rules for targets named lemlib
+
+# Build rule for target.
+lemlib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lemlib
+.PHONY : lemlib
+
+# fast build rule for target.
+lemlib/fast:
+	$(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/build
+.PHONY : lemlib/fast
 
 #=============================================================================
 # Target rules for targets named robot_code
@@ -240,11 +188,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sdl_headers_copy
-	@echo ... uninstall
-	@echo ... SDL2-static
-	@echo ... SDL2_test
-	@echo ... SDL2main
+	@echo ... lemlib
 	@echo ... pros_stubs
 	@echo ... robot_code
 	@echo ... sim_engine

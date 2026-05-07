@@ -1,13 +1,13 @@
 sim/CMakeFiles/sim_engine.dir/src/Renderer.cpp.obj: \
  C:\Users\avise\Vex\ Sim\sim\src\Renderer.cpp \
  C:/Users/avise/Vex\ Sim/sim/include/sim/Renderer.hpp \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_main.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_stdinc.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/INCLUD~1/SDL2/SDL_config.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_platform.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/begin_code.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/close_code.h \
+ C:/msys64/ucrt64/include/SDL2/SDL.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_main.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_stdinc.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_config.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_platform.h \
+ C:/msys64/ucrt64/include/SDL2/begin_code.h \
+ C:/msys64/ucrt64/include/SDL2/close_code.h \
  C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
@@ -94,19 +94,18 @@ sim/CMakeFiles/sim_engine.dir/src/Renderer.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
  C:/msys64/ucrt64/include/float.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_assert.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_atomic.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_platform.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_audio.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_error.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_endian.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_mutex.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_thread.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_assert.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_atomic.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_audio.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_error.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_endian.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_mutex.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_thread.h \
  C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_rwops.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_clipboard.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_cpuinfo.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_rwops.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_clipboard.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_cpuinfo.h \
  C:/msys64/ucrt64/include/intrin.h C:/msys64/ucrt64/include/setjmp.h \
  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
@@ -214,39 +213,39 @@ sim/CMakeFiles/sim_engine.dir/src/Renderer.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_events.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_video.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_pixels.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_rect.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_surface.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_blendmode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_keyboard.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_keycode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_scancode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_mouse.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_joystick.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_guid.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_gamecontroller.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_sensor.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_quit.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_gesture.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_touch.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_filesystem.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_haptic.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_hidapi.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_hints.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_loadso.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_log.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_messagebox.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_metal.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_power.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_render.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_shape.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_system.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_timer.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_version.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_locale.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_misc.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_events.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_video.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_pixels.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_rect.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_surface.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_blendmode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_keyboard.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_keycode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_scancode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_mouse.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_joystick.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_guid.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_gamecontroller.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_sensor.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_quit.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_gesture.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_touch.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_filesystem.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_haptic.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_hidapi.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_hints.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_loadso.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_log.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_messagebox.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_metal.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_power.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_render.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_shape.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_system.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_timer.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_version.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_locale.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_misc.h \
  C:/Users/avise/Vex\ Sim/sim/include/sim/SimState.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/atomic \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \

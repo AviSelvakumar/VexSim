@@ -44,4 +44,53 @@ private:
 };
 
 } // namespace v5
+
+// ── pros::adi namespace — PROS 4 shortened class names ───────────────────────
+namespace adi {
+
+class Port {
+public:
+    explicit Port(uint8_t adi_port) : adi_port_(adi_port) {}
+    virtual ~Port() = default;
+    virtual int32_t set_value(int value) const { return PROS_ERR; }
+    virtual int32_t get_value() const { return PROS_ERR; }
+protected:
+    uint8_t adi_port_;
+};
+
+class DigitalOut : public Port {
+public:
+    explicit DigitalOut(uint8_t adi_port, bool init_state = false)
+        : Port(adi_port), state_(init_state) {}
+    int32_t set_value(int value) const override { return PROS_ERR; }
+private:
+    mutable bool state_;
+};
+
+class DigitalIn : public Port {
+public:
+    explicit DigitalIn(uint8_t adi_port) : Port(adi_port) {}
+    int32_t get_value() const override { return PROS_ERR; }
+};
+
+class AnalogIn : public Port {
+public:
+    explicit AnalogIn(uint8_t adi_port) : Port(adi_port) {}
+    int32_t get_value() const override { return PROS_ERR; }
+    int32_t get_value_calibrated() const { return PROS_ERR; }
+    int32_t calibrate() const { return PROS_ERR; }
+};
+
+class Encoder : public Port {
+public:
+    Encoder(uint8_t top_port, uint8_t bottom_port, bool reversed = false)
+        : Port(top_port), bottom_(bottom_port) {}
+    int32_t get_value() const override { return PROS_ERR; }
+    int32_t reset() const { return PROS_ERR; }
+private:
+    uint8_t bottom_;
+};
+
+} // namespace adi
+
 } // namespace pros

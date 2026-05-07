@@ -8,12 +8,22 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/avise/Vex Sim/stubs/src/apix.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/apix.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/device.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/device.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/distance.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/distance.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/ext_adi.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/ext_adi.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/gps.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/gps.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/imu.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/imu.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/imu.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/link.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/link.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/llemu.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/llemu.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/misc.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/misc.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/misc.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/motors.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/motors.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/motors.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/optical.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/optical.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/rotation.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/rotation.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/rotation.cpp.obj.d"
   "C:/Users/avise/Vex Sim/stubs/src/rtos.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/rtos.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/rtos.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/screen.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/screen.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/serial.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/serial.cpp.obj.d"
+  "C:/Users/avise/Vex Sim/stubs/src/vision.cpp" "stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj" "gcc" "stubs/CMakeFiles/pros_stubs.dir/src/vision.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

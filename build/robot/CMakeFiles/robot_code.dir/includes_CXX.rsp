@@ -1,1 +1,1 @@
--IC:/Users/avise/VEXSIM~1/robot -IC:/Users/avise/VEXSIM~1/stubs/include
+-IC:/Users/avise/VEXSIM~1/stubs/include -IC:/Users/avise/LEMLIB~1/LemLib/include -IC:/Users/avise/VEXSIM~1/robot

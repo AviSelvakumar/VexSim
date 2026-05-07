@@ -2,8 +2,8 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/avise/Vex Sim/build/cmake_install.cmake",
-		"C:/Users/avise/Vex Sim/build/_deps/sdl2-build/cmake_install.cmake",
 		"C:/Users/avise/Vex Sim/build/stubs/cmake_install.cmake",
+		"C:/Users/avise/Vex Sim/build/lemlib/cmake_install.cmake",
 		"C:/Users/avise/Vex Sim/build/robot/cmake_install.cmake",
 		"C:/Users/avise/Vex Sim/build/sim/cmake_install.cmake"
 	],

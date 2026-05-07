@@ -1,57 +1,30 @@
 sim/CMakeFiles/vex_sim.dir/src/main.cpp.obj: \
  C:\Users\avise\Vex\ Sim\sim\src\main.cpp \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_main.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_stdinc.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/INCLUD~1/SDL2/SDL_config.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_platform.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/begin_code.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/close_code.h \
- C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/cmath \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
  C:/msys64/ucrt64/include/_mingw_secapi.h \
  C:/msys64/ucrt64/include/vadefs.h \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
- C:/msys64/ucrt64/include/_mingw_off_t.h C:/msys64/ucrt64/include/stdio.h \
- C:/msys64/ucrt64/include/corecrt_stdio_config.h \
- C:/msys64/ucrt64/include/swprintf.inl \
- C:/msys64/ucrt64/include/sec_api/stdio_s.h \
- C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
- C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
- C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/stdlib.h \
  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
  C:/msys64/ucrt64/include/limits.h \
  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
  C:/msys64/ucrt64/include/malloc.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
- C:/msys64/ucrt64/include/stdarg.h \
- C:/msys64/ucrt64/include/_mingw_stdarg.h \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/msys64/ucrt64/include/strings.h C:/msys64/ucrt64/include/wchar.h \
- C:/msys64/ucrt64/include/_mingw_stat64.h \
- C:/msys64/ucrt64/include/sec_api/wchar_s.h \
- C:/msys64/ucrt64/include/inttypes.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/ctype.h \
- C:/msys64/ucrt64/include/c++/14.2.0/math.h \
- C:/msys64/ucrt64/include/c++/14.2.0/cmath \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
- C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h \
- C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/specfun.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
@@ -91,21 +64,47 @@ sim/CMakeFiles/vex_sim.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+ C:/msys64/ucrt64/include/SDL2/SDL.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_main.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_stdinc.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_config.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_platform.h \
+ C:/msys64/ucrt64/include/SDL2/begin_code.h \
+ C:/msys64/ucrt64/include/SDL2/close_code.h \
+ C:/msys64/ucrt64/include/sys/types.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/strings.h C:/msys64/ucrt64/include/wchar.h \
+ C:/msys64/ucrt64/include/_mingw_stat64.h \
+ C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+ C:/msys64/ucrt64/include/inttypes.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/ctype.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/math.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
  C:/msys64/ucrt64/include/float.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_assert.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_atomic.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_platform.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_audio.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_error.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_endian.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_mutex.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_thread.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_assert.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_atomic.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_audio.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_error.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_endian.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_mutex.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_thread.h \
  C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_rwops.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_clipboard.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_cpuinfo.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_rwops.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_clipboard.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_cpuinfo.h \
  C:/msys64/ucrt64/include/intrin.h C:/msys64/ucrt64/include/setjmp.h \
  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
@@ -213,39 +212,39 @@ sim/CMakeFiles/vex_sim.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_events.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_video.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_pixels.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_rect.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_surface.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_blendmode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_keyboard.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_keycode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_scancode.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_mouse.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_joystick.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_guid.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_gamecontroller.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_sensor.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_quit.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_gesture.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_touch.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_filesystem.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_haptic.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_hidapi.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_hints.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_loadso.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_log.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_messagebox.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_metal.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_power.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_render.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_shape.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_system.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_timer.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_version.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_locale.h \
- C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2/SDL_misc.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_events.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_video.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_pixels.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_rect.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_surface.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_blendmode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_keyboard.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_keycode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_scancode.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_mouse.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_joystick.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_guid.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_gamecontroller.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_sensor.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_quit.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_gesture.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_touch.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_filesystem.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_haptic.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_hidapi.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_hints.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_loadso.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_log.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_messagebox.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_metal.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_power.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_render.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_shape.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_system.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_timer.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_version.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_locale.h \
+ C:/msys64/ucrt64/include/SDL2/SDL_misc.h \
  C:/Users/avise/Vex\ Sim/sim/include/sim/SimState.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/atomic \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
@@ -348,6 +347,27 @@ sim/CMakeFiles/vex_sim.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/14.2.0/format \
+ C:/msys64/ucrt64/include/c++/14.2.0/charconv \
+ C:/msys64/ucrt64/include/c++/14.2.0/locale \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets_nonio.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_conv.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/optional \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/span \
+ C:/msys64/ucrt64/include/c++/14.2.0/variant \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_algobase.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/unicode.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/unicode-data.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/semaphore \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/semaphore_base.h \
@@ -360,12 +380,6 @@ sim/CMakeFiles/vex_sim.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_algo.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_algobase.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h

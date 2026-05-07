@@ -18,10 +18,12 @@ class Mutex {
 public:
     Mutex();
     ~Mutex();
-    bool take(uint32_t timeout_ms = UINT32_MAX);
+    bool take();
+    bool take(uint32_t timeout_ms);
     bool give();
     void lock();
     void unlock();
+    void lazy_init();
 
 private:
     void* handle_;
@@ -49,8 +51,18 @@ public:
     void resume();
     void remove();
 
-    static void delay(uint32_t ms);
-    static uint32_t delay_until(uint32_t* prev_time, uint32_t delta);
+    uint32_t notify();
+    uint32_t notify_take(bool clear_on_exit, uint32_t timeout);
+
+    task_state_e_t get_state();
+    char*          get_name();
+    uint32_t       get_priority();
+    void           set_priority(uint32_t priority);
+    void           join();
+
+    static task_t    get_current();
+    static void      delay(uint32_t ms);
+    static uint32_t  delay_until(uint32_t* prev_time, uint32_t delta);
 
 private:
     void* handle_;

@@ -53,4 +53,8 @@ bool set_text(int16_t line, const std::string& text) {
     return true;
 }
 
+bool register_btn0_cb(lcd_btn_cb_fn_t cb) { return true; }
+bool register_btn1_cb(lcd_btn_cb_fn_t cb) { return true; }
+bool register_btn2_cb(lcd_btn_cb_fn_t cb) { return true; }
+
 }} // namespace pros::lcd

@@ -3,6 +3,14 @@
 #include "device.hpp"
 
 namespace pros {
+
+// PROS 4 enum class used by LemLib
+enum class ImuStatus {
+    ready       = 0,
+    calibrating = 19,
+    error       = 0xFF,
+};
+
 inline namespace v5 {
 
 class Imu : public Device {
@@ -18,7 +26,7 @@ public:
     double  get_yaw() const;
     imu_gyro_s_t  get_gyro_rate() const;
     imu_accel_s_t get_accel() const;
-    imu_status_e_t get_status() const;
+    ImuStatus get_status() const;
     bool    is_calibrating() const;
     int32_t tare_heading() const;
     int32_t tare_rotation() const;

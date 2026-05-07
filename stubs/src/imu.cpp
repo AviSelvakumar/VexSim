@@ -109,7 +109,7 @@ double  Imu::get_pitch() const         { return 0.0; }
 double  Imu::get_yaw() const           { return pros::c::imu_get_yaw(_port); }
 imu_gyro_s_t  Imu::get_gyro_rate() const { return pros::c::imu_get_gyro_rate(_port); }
 imu_accel_s_t Imu::get_accel() const  { return pros::c::imu_get_accel(_port); }
-imu_status_e_t Imu::get_status() const { return pros::c::imu_get_status(_port); }
+ImuStatus Imu::get_status() const { return ImuStatus::ready; }
 bool    Imu::is_calibrating() const    { return false; }
 int32_t Imu::tare_heading() const      { return pros::c::imu_tare_heading(_port); }
 int32_t Imu::tare_rotation() const     { return pros::c::imu_tare_rotation(_port); }

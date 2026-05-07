@@ -151,13 +151,28 @@ Motor::Motor(int8_t port, motor_gearset_e_t gearset, bool reversed,
              motor_encoder_units_e_t encoder_units)
     : Device(static_cast<std::uint8_t>(port < 0 ? -port : port))
 {
-    // Negative port number means reversed direction
-    if (port < 0 || reversed) {
+    if (port < 0 || reversed)
         sim::SimState::get().motors[_port].reversed.store(true);
-    }
 }
 
-int32_t Motor::move(int32_t voltage)                         { return pros::c::motor_move(_port, voltage); }
+// LemLib-style constructors (MotorGears enum class)
+Motor::Motor(const std::int8_t port, const MotorGears gearset,
+             const MotorUnits encoder_units)
+    : Device(static_cast<std::uint8_t>(port < 0 ? -port : port))
+{
+    if (port < 0)
+        sim::SimState::get().motors[_port].reversed.store(true);
+}
+
+Motor::Motor(const std::int8_t port, const MotorUnits encoder_units,
+             const MotorGears gearset)
+    : Device(static_cast<std::uint8_t>(port < 0 ? -port : port))
+{
+    if (port < 0)
+        sim::SimState::get().motors[_port].reversed.store(true);
+}
+
+int32_t Motor::move(int32_t voltage) const                   { return pros::c::motor_move(_port, voltage); }
 int32_t Motor::move_absolute(double pos, int32_t vel)        { return pros::c::motor_move_absolute(_port, pos, vel); }
 int32_t Motor::move_relative(double pos, int32_t vel)        { return pros::c::motor_move_relative(_port, pos, vel); }
 int32_t Motor::move_velocity(int32_t velocity)               { return pros::c::motor_move_velocity(_port, velocity); }
@@ -184,6 +199,7 @@ double  Motor::get_torque() const                            { return pros::c::m
 int32_t Motor::get_voltage() const                           { return pros::c::motor_get_voltage(_port); }
 int32_t Motor::tare_position()                               { return pros::c::motor_tare_position(_port); }
 int32_t Motor::set_brake_mode(motor_brake_mode_e_t mode)     { return pros::c::motor_set_brake_mode(_port, mode); }
+int32_t Motor::set_brake_mode_all(motor_brake_mode_e_t mode) { return pros::c::motor_set_brake_mode(_port, mode); }
 int32_t Motor::set_current_limit(int32_t limit)              { return pros::c::motor_set_current_limit(_port, limit); }
 int32_t Motor::set_encoder_units(motor_encoder_units_e_t u)  { return pros::c::motor_set_encoder_units(_port, u); }
 int32_t Motor::set_gearing(motor_gearset_e_t g)              { return pros::c::motor_set_gearing(_port, g); }
@@ -202,7 +218,23 @@ MotorGroup::MotorGroup(std::initializer_list<int8_t> ports)
 MotorGroup::MotorGroup(std::vector<int8_t> ports)
     : ports_(std::move(ports)) {}
 
-int32_t MotorGroup::move(int32_t v) {
+// LemLib-style: MotorGroup({1,-2,3}, pros::MotorGears::blue)
+MotorGroup::MotorGroup(std::initializer_list<int8_t> ports, MotorGears gearset,
+                       MotorUnits units)
+    : ports_(ports) {
+    // Apply reversal for negative ports
+    for (auto p : ports_)
+        if (p < 0) sim::SimState::get().motors[-p].reversed.store(true);
+}
+
+MotorGroup::MotorGroup(std::vector<int8_t> ports, MotorGears gearset,
+                       MotorUnits units)
+    : ports_(std::move(ports)) {
+    for (auto p : ports_)
+        if (p < 0) sim::SimState::get().motors[-p].reversed.store(true);
+}
+
+int32_t MotorGroup::move(int32_t v) const {
     for (auto p : ports_) pros::c::motor_move(p, v);
     return 1;
 }
@@ -235,6 +267,10 @@ int32_t MotorGroup::tare_position() {
     return 1;
 }
 int32_t MotorGroup::set_brake_mode(motor_brake_mode_e_t m) {
+    for (auto p : ports_) pros::c::motor_set_brake_mode(p, m);
+    return 1;
+}
+int32_t MotorGroup::set_brake_mode_all(motor_brake_mode_e_t m) {
     for (auto p : ports_) pros::c::motor_set_brake_mode(p, m);
     return 1;
 }
@@ -282,5 +318,11 @@ motor_brake_mode_e_t    MotorGroup::get_brake_mode() const    { return E_MOTOR_B
 motor_encoder_units_e_t MotorGroup::get_encoder_units() const { return E_MOTOR_ENCODER_DEGREES; }
 motor_gearset_e_t       MotorGroup::get_gearing() const       { return E_MOTOR_GEARSET_18; }
 int32_t MotorGroup::is_reversed() const { return 0; }
+
+std::vector<double> MotorGroup::get_position_all() const {
+    std::vector<double> result;
+    for (auto p : ports_) result.push_back(pros::c::motor_get_position(p));
+    return result;
+}
 
 }} // namespace pros::v5

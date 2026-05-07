@@ -1,1 +1,1 @@
--I"C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include" -IC:/Users/avise/VEXSIM~1/sim/include -I"C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/include/SDL2" -I"C:/Users/avise/VEXSIM~1/build/_deps/SDL2-B~1/INCLUD~1/SDL2" -IC:/Users/avise/VEXSIM~1/robot -IC:/Users/avise/VEXSIM~1/stubs/include
+-IC:/Users/avise/VEXSIM~1/sim/include -IC:/Users/avise/VEXSIM~1/stubs/include -IC:/Users/avise/LEMLIB~1/LemLib/include -IC:/Users/avise/VEXSIM~1/robot -isystem C:/msys64/ucrt64/include/SDL2

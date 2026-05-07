@@ -9,7 +9,7 @@ class AbstractMotor {
 public:
     virtual ~AbstractMotor() = default;
 
-    virtual int32_t move(int32_t voltage) = 0;
+    virtual int32_t move(int32_t voltage) const = 0;
     virtual int32_t move_absolute(double position, int32_t velocity) = 0;
     virtual int32_t move_relative(double position, int32_t velocity) = 0;
     virtual int32_t move_velocity(int32_t velocity) = 0;
@@ -36,6 +36,7 @@ public:
     virtual int32_t get_voltage() const = 0;
     virtual int32_t tare_position() = 0;
     virtual int32_t set_brake_mode(motor_brake_mode_e_t mode) = 0;
+    virtual int32_t set_brake_mode_all(motor_brake_mode_e_t mode) = 0;
     virtual int32_t set_current_limit(int32_t limit) = 0;
     virtual int32_t set_encoder_units(motor_encoder_units_e_t units) = 0;
     virtual int32_t set_gearing(motor_gearset_e_t gearset) = 0;

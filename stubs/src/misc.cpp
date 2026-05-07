@@ -3,6 +3,8 @@
 #include "sim/SimState.hpp"
 #include <cstdarg>
 #include <cstdio>
+#include <chrono>
+#include <thread>
 
 namespace pros { namespace c {
 
@@ -110,3 +112,34 @@ bool Competition::is_connected()  { return pros::c::competition_is_connected()  
 bool Competition::is_disabled()   { return pros::c::competition_is_disabled()   != 0; }
 
 }} // namespace pros::v5
+
+// ── pros::competition namespace (PROS 4 free-function API) ────────────────────
+namespace pros { namespace competition {
+    uint32_t get_status() { return pros::c::competition_get_status(); }
+    bool is_autonomous()  { return pros::c::competition_is_autonomous() != 0; }
+    bool is_connected()   { return pros::c::competition_is_connected() != 0; }
+    bool is_disabled()    { return pros::c::competition_is_disabled() != 0; }
+}} // namespace pros::competition
+
+// ── Bare C-compatible shims (called without namespace by some PROS code) ──────
+extern "C" {
+    void delay(uint32_t ms) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+    }
+    uint32_t millis(void) {
+        return sim::SimState::get().sim_millis.load();
+    }
+    // controller_print / controller_rumble already in pros::c; provide bare shims
+    int32_t controller_print(pros::controller_id_e_t id, uint8_t line, uint8_t col,
+                             const char* fmt, ...) {
+        va_list args;
+        va_start(args, fmt);
+        vprintf(fmt, args);
+        va_end(args);
+        printf("\n");
+        return 1;
+    }
+    int32_t controller_rumble(pros::controller_id_e_t id, const char* pattern) {
+        return 1;
+    }
+}

@@ -101,11 +101,13 @@ sim\vex_sim.exe: sim\sim_engine.lib
 sim\vex_sim.exe: robot\robot_code.lib
 sim\vex_sim.exe: stubs\pros_stubs.lib
 sim\vex_sim.exe: _deps\sdl2-build\SDL2-staticd.lib
+sim\vex_sim.exe: lemlib\lemlib.lib
+sim\vex_sim.exe: stubs\pros_stubs.lib
 sim\vex_sim.exe: sim\CMakeFiles\vex_sim.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\avise\Vex Sim\build_msvc\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable vex_sim.exe"
 	cd C:\Users\avise\VEXSIM~1\BUILD_~1\sim
 	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1940 --intdir=CMakeFiles\vex_sim.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1440~1.338\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\vex_sim.dir\objects1.rsp @<<
- /out:vex_sim.exe /implib:vex_sim.lib /pdb:"C:\Users\avise\Vex Sim\build_msvc\sim\vex_sim.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  ..\_deps\sdl2-build\SDL2maind.lib sim_engine.lib ..\robot\robot_code.lib ..\stubs\pros_stubs.lib ..\_deps\sdl2-build\SDL2-staticd.lib kernel32.lib user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib advapi32.lib setupapi.lib shell32.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:vex_sim.exe /implib:vex_sim.lib /pdb:"C:\Users\avise\Vex Sim\build_msvc\sim\vex_sim.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  ..\_deps\sdl2-build\SDL2maind.lib sim_engine.lib ..\robot\robot_code.lib ..\stubs\pros_stubs.lib ..\_deps\sdl2-build\SDL2-staticd.lib kernel32.lib user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib advapi32.lib setupapi.lib shell32.lib dinput8.lib ..\lemlib\lemlib.lib ..\stubs\pros_stubs.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 	cd C:\Users\avise\VEXSIM~1\BUILD_~1
 

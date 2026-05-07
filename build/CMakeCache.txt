@@ -30,8 +30,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/msys64/ucrt64/bin/g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:UNINITIALIZED=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -59,8 +59,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/msys64/ucrt64/bin/gcc.exe
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:UNINITIALIZED=C:/msys64/ucrt64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -313,6 +313,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED_SDL2:BOOL=OFF
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/mingw64/bin/git.exe
 
+//No help, variable specified on the command line.
+LEMLIB_DIR:UNINITIALIZED=C:\Users\avise\LemLib Source\LemLib
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -325,6 +328,9 @@ SDL2-static_LIB_DEPENDS:STATIC=general;m;general;kernel32;general;user32;general
 //Value Computed by CMake
 SDL2_BINARY_DIR:STATIC=C:/Users/avise/Vex Sim/build/_deps/sdl2-build
 
+//No help, variable specified on the command line.
+SDL2_DIR:UNINITIALIZED=C:/msys64/ucrt64/lib/cmake/SDL2
+
 //Disable installation of SDL2
 SDL2_DISABLE_INSTALL:BOOL=ON
 
@@ -333,6 +339,9 @@ SDL2_DISABLE_SDL2MAIN:BOOL=OFF
 
 //Disable uninstallation of SDL2
 SDL2_DISABLE_UNINSTALL:BOOL=OFF
+
+//Path to a file.
+SDL2_DLL_PATH:FILEPATH=C:/msys64/ucrt64/bin/SDL2.dll
 
 //Value Computed by CMake
 SDL2_IS_TOP_LEVEL:STATIC=OFF
@@ -585,6 +594,9 @@ SDL_X11:BOOL=OFF
 
 //Use Xinput for Windows
 SDL_XINPUT:BOOL=ON
+
+//Use system-installed SDL2 instead of building from source
+USE_SYSTEM_SDL2:BOOL=OFF
 
 //Value Computed by CMake
 VexSim_BINARY_DIR:STATIC=C:/Users/avise/Vex Sim/build

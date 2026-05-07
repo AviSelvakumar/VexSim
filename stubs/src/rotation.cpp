@@ -51,6 +51,7 @@ std::int32_t Rotation::get_angle() const {
 }
 
 std::int32_t Rotation::set_reversed(bool v) const { return 1; }
+std::int32_t Rotation::reverse() const            { return 1; }
 std::int32_t Rotation::get_reversed() const       { return 0; }
 
 std::ostream& operator<<(std::ostream& os, pros::Rotation& r) {
