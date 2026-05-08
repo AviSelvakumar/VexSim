@@ -164,7 +164,10 @@ public:
     motor_brake_mode_e_t    get_brake_mode() const override;
     motor_encoder_units_e_t get_encoder_units() const override;
     motor_gearset_e_t       get_gearing() const override;
-    std::vector<MotorGears> get_gearing_all() const { return { static_cast<MotorGears>(get_gearing()) }; }
+    std::vector<MotorGears> get_gearing_all() const {
+        std::vector<MotorGears> out(ports_.size(), static_cast<MotorGears>(get_gearing()));
+        return out;
+    }
     std::vector<double>     get_position_all() const;
     int32_t is_reversed() const override;
     int size() const { return static_cast<int>(ports_.size()); }

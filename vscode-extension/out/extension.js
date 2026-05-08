@@ -141,9 +141,18 @@ function killRunningSimAsync() {
         proc.on('close', () => resolve());
     });
 }
+function msys2Env() {
+    const ucrt64 = 'C:\\msys64\\ucrt64\\bin';
+    const current = process.env.PATH ?? '';
+    const already = current.toLowerCase().includes('ucrt64');
+    return {
+        ...process.env,
+        PATH: already ? current : `${ucrt64};${current}`,
+    };
+}
 function runCommand(cmd, args, cwd) {
     return new Promise(resolve => {
-        const proc = cp.spawn(cmd, args, { cwd, shell: true });
+        const proc = cp.spawn(cmd, args, { cwd, shell: true, env: msys2Env() });
         proc.stdout.on('data', (d) => outputChannel.append(d.toString()));
         proc.stderr.on('data', (d) => outputChannel.append(d.toString()));
         proc.on('close', code => {

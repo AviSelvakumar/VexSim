@@ -28,11 +28,12 @@
       "generator": "MinGW Makefiles",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
-        "CMAKE_C_COMPILER":   "C:/msys64/ucrt64/bin/gcc.exe",
-        "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe",
-        "CMAKE_MAKE_PROGRAM": "C:/msys64/ucrt64/bin/mingw32-make.exe",
-        "CMAKE_BUILD_TYPE":   "Debug",
-        "SDL2_DIR":           "C:/msys64/ucrt64/lib/cmake/SDL2"
+        "CMAKE_C_COMPILER":       "C:/msys64/ucrt64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER":     "C:/msys64/ucrt64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM":     "C:/msys64/ucrt64/bin/mingw32-make.exe",
+        "CMAKE_BUILD_TYPE":       "Debug",
+        "SDL2_DIR":               "C:/msys64/ucrt64/lib/cmake/SDL2",
+        "CMAKE_EXE_LINKER_FLAGS": "-fuse-ld=lld"
       }
     },
     {
@@ -40,7 +41,7 @@
       "displayName": "MSYS2 UCRT64 + LemLib",
       "inherits": "msys2-ucrt64",
       "cacheVariables": {
-        "LEMLIB_DIR": "C:/Users/avise/LemLib-0.5.6"
+        "LEMLIB_DIR": "${sourceDir}/lemlib-src"
       }
     }
   ]
