@@ -42,7 +42,7 @@ void Scheduler::shutdown() {
     SimState::get().running.store(false);
 
     if (robot_thread_.joinable())
-        robot_thread_.join();
+        robot_thread_.detach();
 
     std::lock_guard<std::mutex> lock(tasks_mutex_);
     for (auto& t : user_tasks_) {

@@ -12,8 +12,20 @@ namespace sim {
 
 // ── C API ─────────────────────────────────────────────────────────────────────
 
+// Sleep in short chunks so the thread wakes up promptly when running→false.
+static void interruptible_sleep(uint32_t ms) {
+    using namespace std::chrono;
+    auto deadline = steady_clock::now() + milliseconds(ms);
+    while (sim::SimState::get().running.load()) {
+        auto left = deadline - steady_clock::now();
+        if (left <= milliseconds(0)) return;
+        auto chunk = left < milliseconds(5) ? left : milliseconds(5);
+        std::this_thread::sleep_for(chunk);
+    }
+}
+
 void pros_delay(uint32_t milliseconds) {
-    std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds));
+    interruptible_sleep(milliseconds);
 }
 
 uint32_t pros_millis(void) {
@@ -29,7 +41,7 @@ uint32_t pros_micros(void) {
 namespace pros { inline namespace rtos {
 
 void delay(uint32_t ms) {
-    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+    interruptible_sleep(ms);
 }
 
 uint32_t millis() { return pros_millis(); }
@@ -99,7 +111,7 @@ void Task::join() {
 }
 
 void Task::delay(uint32_t ms) {
-    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+    interruptible_sleep(ms);
 }
 
 uint32_t Task::delay_until(uint32_t* prev_time, uint32_t delta) {
@@ -107,7 +119,7 @@ uint32_t Task::delay_until(uint32_t* prev_time, uint32_t delta) {
         uint32_t now = pros_millis();
         uint32_t next = *prev_time + delta;
         if (now < next)
-            std::this_thread::sleep_for(std::chrono::milliseconds(next - now));
+            interruptible_sleep(next - now);
         *prev_time = next;
         return next;
     }

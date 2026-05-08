@@ -25,6 +25,11 @@ bool InputHandler::poll(SimState& state) {
             case SDL_KEYUP:
                 handleKeyUp(event.key.keysym.sym, state);
                 break;
+
+            case SDL_MOUSEMOTION:
+                state.mouse_x.store(event.motion.x);
+                state.mouse_y.store(event.motion.y);
+                break;
         }
     }
 

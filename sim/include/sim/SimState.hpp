@@ -29,12 +29,15 @@ struct MotorState {
     //   - If commanded zero + BRAKE/HOLD: generate back-EMF opposing current motion.
     //   - If commanded zero + COAST: return 0 (motor disconnected).
     // speed_frac: current wheel speed as fraction of max (-1..1), positive = forward.
-    double get_effective_voltage(double speed_frac) const {
+    // gear_friction: 0..1, fraction of max back-EMF added by gear mesh drag.
+    // Applied to unpowered motors only — does not reduce top speed when commanded.
+    double get_effective_voltage(double speed_frac, double gear_friction = 0.0) const {
         int cmd = voltage.load();
         if (cmd != 0) return cmd;
+        double friction_emf = -gear_friction * speed_frac * 127.0;
         if (brake_mode_int.load() >= 1)
-            return -speed_frac * 127.0; // back-EMF opposes motion
-        return 0.0; // COAST: motor disconnected
+            return -speed_frac * 127.0 + friction_emf; // brake back-EMF + gear friction
+        return friction_emf;                            // COAST: only gear friction
     }
 
     double get_position_deg() const {
@@ -78,6 +81,10 @@ public:
     std::atomic<CompMode> comp_mode{CompMode::DISABLED};
     std::atomic<uint32_t> sim_millis{0};
     std::atomic<bool>     running{true};
+
+    // Mouse cursor position in screen pixels (-1 = not tracked)
+    std::atomic<int> mouse_x{-1};
+    std::atomic<int> mouse_y{-1};
 
     static SimState& get();
 

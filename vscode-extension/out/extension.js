@@ -115,6 +115,7 @@ async function runSim() {
         '--max-rpm', String(r.get('robot.maxRpm', 600)),
         '--mass', String(r.get('robot.massKg', 10.0)),
         '--drive-motors', String(r.get('robot.driveMotorCount', 6)),
+        '--gear-friction', String(r.get('robot.gearFriction', 0.0)),
         '--left-ports', (r.get('robot.leftPorts', [4, 5, 6])).join(','),
         '--right-ports', (r.get('robot.rightPorts', [1, 2, 3])).join(','),
         '--tracking-left', String(r.get('robot.trackingLeftPort', 0)),
@@ -123,6 +124,9 @@ async function runSim() {
         '--tracking-radius', String(r.get('robot.trackingWheelRadiusIn', 1.0)),
         '--robot-width', String(r.get('robot.widthIn', 8.0)),
         '--robot-height', String(r.get('robot.heightIn', 8.0)),
+        '--start-x', String(r.get('robot.startX', 0.0)),
+        '--start-y', String(r.get('robot.startY', 0.0)),
+        '--start-heading', String(r.get('robot.startHeadingDeg', 0.0)),
     ];
     outputChannel.appendLine(exePath + ' ' + launchArgs.join(' '));
     const simCwd = path.join(buildDir, 'sim');

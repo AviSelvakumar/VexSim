@@ -98,6 +98,7 @@ async function runSim() {
         '--max-rpm',            String(r.get<number>('robot.maxRpm',               600)),
         '--mass',               String(r.get<number>('robot.massKg',               10.0)),
         '--drive-motors',       String(r.get<number>('robot.driveMotorCount',      6)),
+        '--gear-friction',      String(r.get<number>('robot.gearFriction',         0.0)),
         '--left-ports',         (r.get<number[]>('robot.leftPorts',  [4,5,6])).join(','),
         '--right-ports',        (r.get<number[]>('robot.rightPorts', [1,2,3])).join(','),
         '--tracking-left',      String(r.get<number>('robot.trackingLeftPort',     0)),
@@ -106,6 +107,9 @@ async function runSim() {
         '--tracking-radius',    String(r.get<number>('robot.trackingWheelRadiusIn',1.0)),
         '--robot-width',        String(r.get<number>('robot.widthIn',              8.0)),
         '--robot-height',       String(r.get<number>('robot.heightIn',             8.0)),
+        '--start-x',            String(r.get<number>('robot.startX',              0.0)),
+        '--start-y',            String(r.get<number>('robot.startY',              0.0)),
+        '--start-heading',      String(r.get<number>('robot.startHeadingDeg',     0.0)),
     ];
 
     outputChannel.appendLine(exePath + ' ' + launchArgs.join(' '));

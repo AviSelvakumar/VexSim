@@ -6,14 +6,35 @@
 
 namespace sim {
 
-Physics::Physics(const RobotConfig& cfg) : cfg_(cfg) {}
+Physics::Physics(const RobotConfig& cfg) : cfg_(cfg) {
+    // Goal positions in field inches (origin = bottom-left, Y up).
+    // Derived from 2026-27 Appendix A diagram (field = 140.41" × 140.41").
+    // Collision radius: half of short-goal base width (5.61") = 2.81"
+    const double S  = cfg_.field_w / 140.41; // px per inch
+    const double FH = cfg_.field_h;
+    const double R  = 3.22 * S;              // collision radius = outer octagonal circumradius (px)
+
+    struct { double xi, yi; } pos[9] = {
+        // Red alliance goals (left wall side)
+        {23.11,  23.11}, {23.11, 117.30},
+        // Blue alliance goals (right wall side)
+        {117.30, 23.11}, {117.30, 117.30},
+        // Neutral short goals (inner quadrant corners)
+        {48.24, 48.24}, {48.24, 92.17},
+        {92.17, 48.24}, {92.17, 92.17},
+        // Center tall goal
+        {70.20, 70.20},
+    };
+    for (int i = 0; i < 9; ++i)
+        goals_[i] = { pos[i].xi * S, FH - pos[i].yi * S, R };
+}
 
 double Physics::averageEffectiveVoltage(const std::array<int, 4>& ports, double speed_frac) const {
     double sum = 0.0;
     int count  = 0;
     for (int port : ports) {
         if (port <= 0) break;
-        sum += SimState::get().motors[port].get_effective_voltage(speed_frac);
+        sum += SimState::get().motors[port].get_effective_voltage(speed_frac, cfg_.gear_friction_coeff);
         ++count;
     }
     return count > 0 ? sum / count : 0.0;
@@ -66,6 +87,37 @@ void Physics::step(double dt_sec) {
         state.pose.y       += v * std::sin(state.pose.heading) * dt_sec;
         state.pose.heading += omega * dt_sec;
         state.pose.heading_accumulated += omega * dt_sec;
+
+        // Goal collision: circle-circle push-out.
+        // Robot is approximated as a circle (conservative circumscribed radius).
+        const double rr = std::sqrt(cfg_.robot_half_w * cfg_.robot_half_w +
+                                    cfg_.robot_half_h * cfg_.robot_half_h);
+        for (const auto& g : goals_) {
+            double dx = state.pose.x - g.x;
+            double dy = state.pose.y - g.y;
+            double minDist = rr + g.r;
+            double dist2   = dx * dx + dy * dy;
+            if (dist2 >= minDist * minDist) continue;
+
+            double dist = std::sqrt(dist2);
+            double nx = dist > 1e-9 ? dx / dist : 1.0;
+            double ny = dist > 1e-9 ? dy / dist : 0.0;
+
+            // Positional correction: push robot out of overlap
+            double push = minDist - dist;
+            state.pose.x += nx * push;
+            state.pose.y += ny * push;
+
+            // Cancel velocity directed into the goal.
+            double v_lin = (vL_ + vR_) * 0.5;
+            double vx    = v_lin * std::cos(state.pose.heading);
+            double vy    = v_lin * std::sin(state.pose.heading);
+            double vn    = vx * nx + vy * ny;   // + = moving away from goal
+            if (vn < 0.0) {
+                vL_ = 0.0;
+                vR_ = 0.0;
+            }
+        }
 
         // Clamp to field bounds
         state.pose.x = std::clamp(state.pose.x,

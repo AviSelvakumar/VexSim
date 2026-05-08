@@ -1,5 +1,6 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
+#include <cstdlib>
 #include <SDL2/SDL.h>
 #include "sim/SimState.hpp"
 #include "sim/Physics.hpp"
@@ -58,7 +59,8 @@ static sim::RobotConfig buildConfig(int argc, char** argv) {
     cfg.robot_half_w              = (robot_width_in  / 2.0) * 5.0;
     cfg.robot_half_h              = (robot_height_in / 2.0) * 5.0;
 
-    cfg.max_rpm    = dbl("--max-rpm", 600.0);
+    cfg.max_rpm           = dbl("--max-rpm",      600.0);
+    cfg.gear_friction_coeff = dbl("--gear-friction", 0.0);
     cfg.field_w    = 720.0;
     cfg.field_h    = 720.0;
 
@@ -121,12 +123,23 @@ int main(int argc, char* argv[]) {
 
     sim::RobotConfig cfg = buildConfig(argc, argv);
 
+    // Start pose — coordinates in inches from field center (LemLib convention:
+    // X right, Y up, heading 0° = North/up, clockwise-positive).
+    // Converted to SDL pixels: SDL_y is flipped, sim heading 0 = East (+X).
     {
+        auto dbl = [&](const char* flag, double def) {
+            return std::stod(argval(argc, argv, flag, std::to_string(def).c_str()));
+        };
+        double sx  = dbl("--start-x",       0.0);   // inches from center
+        double sy  = dbl("--start-y",       0.0);
+        double shd = dbl("--start-heading", 0.0);   // degrees, 0=North CW+
+
+        const double S = FIELD_W / 140.41;
         auto& state = sim::SimState::get();
         std::lock_guard<std::mutex> lock(state.pose_mutex);
-        state.pose.x       = FIELD_W / 2.0;
-        state.pose.y       = FIELD_H / 2.0;
-        state.pose.heading = -M_PI / 2.0;
+        state.pose.x       = FIELD_W / 2.0 + sx * S;
+        state.pose.y       = FIELD_H / 2.0 - sy * S;          // flip Y
+        state.pose.heading = (shd - 90.0) * M_PI / 180.0;     // to sim radians
         state.pose.heading_accumulated = 0.0;
     }
 
@@ -160,5 +173,5 @@ int main(int argc, char* argv[]) {
     SDL_DestroyRenderer(sdl_ren);
     SDL_DestroyWindow(window);
     SDL_Quit();
-    return 0;
+    std::quick_exit(0);
 }
