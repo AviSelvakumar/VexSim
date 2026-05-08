@@ -71,420 +71,420 @@ include lemlib/CMakeFiles/lemlib.dir/flags.make
 lemlib/CMakeFiles/lemlib.dir/codegen:
 .PHONY : lemlib/CMakeFiles/lemlib.dir/codegen
 
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/chassis.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\chassis.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\chassis.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\chassis.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\chassis.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\chassis.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\chassis.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\chassis.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPoint.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\moveToPose.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\pursuit.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToHeading.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\swingToPoint.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToHeading.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\motions\turnToPoint.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/odom.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\odom.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\odom.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\odom.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\odom.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\odom.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\odom.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\odom.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/opcontrol.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\opcontrol.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\opcontrol.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\opcontrol.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\opcontrol.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\opcontrol.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\opcontrol.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\opcontrol.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/chassis/trackingWheel.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\trackingWheel.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\trackingWheel.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\trackingWheel.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\trackingWheel.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\trackingWheel.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\chassis\trackingWheel.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\chassis\trackingWheel.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/driveCurve.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\driveCurve.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\driveCurve.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\driveCurve.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\driveCurve.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\driveCurve.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\driveCurve.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\driveCurve.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/exitcondition.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\exitcondition.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\exitcondition.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\exitcondition.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\exitcondition.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\exitcondition.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\exitcondition.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\exitcondition.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/baseSink.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\baseSink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\baseSink.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\baseSink.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\baseSink.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\baseSink.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\baseSink.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\baseSink.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/buffer.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\buffer.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\buffer.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\buffer.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\buffer.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\buffer.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\buffer.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\buffer.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/infoSink.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\infoSink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\infoSink.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\infoSink.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\infoSink.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\infoSink.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\infoSink.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\infoSink.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/logger.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\logger.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\logger.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\logger.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\logger.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\logger.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\logger.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\logger.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/message.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\message.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\message.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\message.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\message.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\message.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\message.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\message.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/stdout.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\stdout.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\stdout.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\stdout.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\stdout.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\stdout.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\stdout.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\stdout.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/logger/telemetrySink.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\telemetrySink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\telemetrySink.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\telemetrySink.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\telemetrySink.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\telemetrySink.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\logger\telemetrySink.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\logger\telemetrySink.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/pid.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pid.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pid.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pid.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pid.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pid.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pid.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pid.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/pose.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pose.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pose.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pose.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pose.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pose.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\pose.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\pose.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/timer.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\timer.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\timer.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\timer.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\timer.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\timer.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\timer.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\timer.cpp.s
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj: C:/Users/avise/LemLib\ Source/LemLib/src/lemlib/util.cpp
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\util.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\util.cpp.obj -c "C:\Users\avise\LemLib Source\LemLib\src\lemlib\util.cpp"
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\avise\LemLib Source\LemLib\src\lemlib\util.cpp" > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\util.cpp.i
-
-lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s"
-	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\avise\LemLib Source\LemLib\src\lemlib\util.cpp" -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib_Source\LemLib\src\lemlib\util.cpp.s
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\chassis.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPoint.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\moveToPose.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\pursuit.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToHeading.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\swingToPoint.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToHeading.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\motions\turnToPoint.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\odom.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\opcontrol.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\chassis\trackingWheel.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\driveCurve.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\exitcondition.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\baseSink.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\buffer.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\infoSink.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\logger.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\message.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\stdout.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\logger\telemetrySink.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pid.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\pose.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\timer.cpp.s
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/flags.make
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/includes_CXX.rsp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj: C:/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj: lemlib/CMakeFiles/lemlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj -MF CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp.obj.d -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp.obj -c C:\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp > CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp.i
+
+lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s"
+	cd /d C:\Users\avise\VEXSIM~1\build\lemlib && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp -o CMakeFiles\lemlib.dir\C_\Users\avise\LemLib-0.5.6\src\lemlib\util.cpp.s
 
 # Object files for target lemlib
 lemlib_OBJECTS = \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj" \
-"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj"
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj" \
+"CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj"
 
 # External object files for target lemlib
 lemlib_EXTERNAL_OBJECTS =
 
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj
-lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj
+lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj
 lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/build.make
 lemlib/liblemlib.a: lemlib/CMakeFiles/lemlib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\avise\Vex Sim\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library liblemlib.a"

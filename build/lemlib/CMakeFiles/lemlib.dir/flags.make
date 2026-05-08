@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/lemlib.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++23 -w "-includeC:/Users/avise/Vex Sim/lemlib/lemlib_compat.h" -std=gnu++23
+CXX_FLAGS = -g -std=gnu++20 -w "-includeC:/Users/avise/Vex Sim/lemlib/lemlib_compat.h"
 

@@ -7,6 +7,8 @@ struct RobotConfig {
     double track_width_px  = 60.0;   // pixels between left/right wheel centers
     double wheel_radius_px = 15.0;   // pixel radius of each drive wheel
     double max_rpm         = 200.0;  // baseline gearset RPM
+    double accel_time_constant = 0.15; // seconds to reach ~63% of max speed (powered / braking)
+    double coast_time_constant = 1.5;  // seconds to coast to rest (motor disconnected, friction only)
     double field_w         = 720.0;  // field width in pixels
     double field_h         = 720.0;  // field height in pixels
     double robot_half_w    = 20.0;   // half robot width for boundary clamping
@@ -33,8 +35,15 @@ public:
 
 private:
     RobotConfig cfg_;
+    double vL_{0.0};  // current left  wheel velocity (px/s)
+    double vR_{0.0};  // current right wheel velocity (px/s)
 
-    double averageVoltage(const std::array<int, 4>& ports) const;
+    // Returns average effective voltage across ports, with each motor applying its own
+    // back-EMF when in brake mode. speed_frac = current side velocity / max_speed (-1..1).
+    double averageEffectiveVoltage(const std::array<int, 4>& ports, double speed_frac) const;
+
+    // Returns true if every active port on this side is in COAST mode.
+    bool allCoast(const std::array<int, 4>& ports) const;
 };
 
 } // namespace sim

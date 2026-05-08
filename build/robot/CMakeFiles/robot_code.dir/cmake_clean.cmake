@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/robot_code.dir/main.cpp.obj"
-  "CMakeFiles/robot_code.dir/main.cpp.obj.d"
+  "CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.obj"
+  "CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.obj.d"
   "librobot_code.a"
   "librobot_code.pdb"
 )

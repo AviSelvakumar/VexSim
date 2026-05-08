@@ -1,13 +1,21 @@
-add_library(robot_code STATIC
-    main.cpp
-    # Add any other .cpp files from your PROS project's src/ here, e.g.:
-    # autons.cpp
-    # chassis.cpp
+# If ROBOT_SRC_DIR is set (e.g. by the VSCode extension), compile directly from
+# the PROS project's src/ directory. Otherwise fall back to the local main.cpp.
+if(DEFINED ROBOT_SRC_DIR AND NOT ROBOT_SRC_DIR STREQUAL "")
+    file(GLOB_RECURSE ROBOT_SOURCES "${ROBOT_SRC_DIR}/*.cpp")
+    message(STATUS "robot_code: using PROS project sources from ${ROBOT_SRC_DIR}")
+else()
+    file(GLOB_RECURSE ROBOT_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
+endif()
+
+add_library(robot_code STATIC ${ROBOT_SOURCES})
+
+target_include_directories(robot_code PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-target_include_directories(robot_code
-    PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
-)
+if(DEFINED ROBOT_INCLUDE_DIR AND NOT ROBOT_INCLUDE_DIR STREQUAL "")
+    target_include_directories(robot_code PUBLIC "${ROBOT_INCLUDE_DIR}")
+endif()
 
 target_link_libraries(robot_code
     PUBLIC pros_stubs

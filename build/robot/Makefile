@@ -129,29 +129,29 @@ robot_code/fast:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/build
 .PHONY : robot_code/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+c_/Users/avise/VEX-26-States/src/main.obj: c_/Users/avise/VEX-26-States/src/main.cpp.obj
+.PHONY : c_/Users/avise/VEX-26-States/src/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+c_/Users/avise/VEX-26-States/src/main.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.obj
+.PHONY : c_/Users/avise/VEX-26-States/src/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+c_/Users/avise/VEX-26-States/src/main.i: c_/Users/avise/VEX-26-States/src/main.cpp.i
+.PHONY : c_/Users/avise/VEX-26-States/src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/main.cpp.i
-.PHONY : main.cpp.i
+c_/Users/avise/VEX-26-States/src/main.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.i
+.PHONY : c_/Users/avise/VEX-26-States/src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+c_/Users/avise/VEX-26-States/src/main.s: c_/Users/avise/VEX-26-States/src/main.cpp.s
+.PHONY : c_/Users/avise/VEX-26-States/src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/main.cpp.s
-.PHONY : main.cpp.s
+c_/Users/avise/VEX-26-States/src/main.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f robot\CMakeFiles\robot_code.dir\build.make robot/CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.s
+.PHONY : c_/Users/avise/VEX-26-States/src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... robot_code
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... c_/Users/avise/VEX-26-States/src/main.obj
+	@echo ... c_/Users/avise/VEX-26-States/src/main.i
+	@echo ... c_/Users/avise/VEX-26-States/src/main.s
 .PHONY : help
 
 

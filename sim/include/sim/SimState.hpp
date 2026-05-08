@@ -20,7 +20,22 @@ struct MotorState {
     // Actual degrees = position_millideg / 1000.0
     std::atomic<int64_t> position_millideg{0};
 
-    enum class Mode { VOLTAGE, MILLIVOLTS, VELOCITY } mode{Mode::VOLTAGE};
+    enum class Mode      { VOLTAGE, MILLIVOLTS, VELOCITY } mode{Mode::VOLTAGE};
+    enum class BrakeMode { COAST = 0, BRAKE = 1, HOLD = 2 };
+    std::atomic<int> brake_mode_int{0}; // 0=COAST, 1=BRAKE/HOLD
+
+    // Called by Physics each step. Returns the voltage this motor actually produces:
+    //   - If commanded non-zero: pass through commanded voltage.
+    //   - If commanded zero + BRAKE/HOLD: generate back-EMF opposing current motion.
+    //   - If commanded zero + COAST: return 0 (motor disconnected).
+    // speed_frac: current wheel speed as fraction of max (-1..1), positive = forward.
+    double get_effective_voltage(double speed_frac) const {
+        int cmd = voltage.load();
+        if (cmd != 0) return cmd;
+        if (brake_mode_int.load() >= 1)
+            return -speed_frac * 127.0; // back-EMF opposes motion
+        return 0.0; // COAST: motor disconnected
+    }
 
     double get_position_deg() const {
         return position_millideg.load() / 1000.0;

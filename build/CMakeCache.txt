@@ -314,13 +314,19 @@ FETCHCONTENT_UPDATES_DISCONNECTED_SDL2:BOOL=OFF
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/mingw64/bin/git.exe
 
 //No help, variable specified on the command line.
-LEMLIB_DIR:UNINITIALIZED=C:\Users\avise\LemLib Source\LemLib
+LEMLIB_DIR:UNINITIALIZED=C:/Users/avise/LemLib-0.5.6
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=C:/msys64/ucrt64/bin/pkg-config.exe
+
+//No help, variable specified on the command line.
+ROBOT_INCLUDE_DIR:UNINITIALIZED=c:\Users\avise\VEX-26-States\include
+
+//No help, variable specified on the command line.
+ROBOT_SRC_DIR:UNINITIALIZED=c:\Users\avise\VEX-26-States\src
 
 //Dependencies for the target
 SDL2-static_LIB_DEPENDS:STATIC=general;m;general;kernel32;general;user32;general;gdi32;general;winmm;general;imm32;general;ole32;general;oleaut32;general;version;general;uuid;general;advapi32;general;setupapi;general;shell32;general;dinput8;

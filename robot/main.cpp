@@ -110,8 +110,10 @@ void on_center_button() {
 void initialize() {
 	pros::lcd::initialize();
 	pros::lcd::set_text(1, "Hello PROS User!");
-
 	pros::lcd::register_btn1_cb(on_center_button);
+
+	left_mg.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
+	right_mg.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
 }
 
 /**
@@ -173,6 +175,7 @@ void opcontrol() {
 	double vision_integral = 0;
 	double vision_prev_error = 0;
 	double vision_threshold = 10.0; // pixels
+    
 
 	while (true) {
 		// Arcade control scheme

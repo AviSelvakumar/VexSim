@@ -1,0 +1,115 @@
+{
+  "name": "vex-sim-runner",
+  "displayName": "VEX Sim Runner",
+  "publisher": "local",
+  "description": "Build and launch the VEX V5 simulator from a PROS project",
+  "version": "0.1.0",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": [
+    "workspaceContains:project.pros"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vexsim.run",
+        "title": "VEX Sim: Build & Run"
+      }
+    ],
+    "configuration": {
+      "title": "VEX Sim Runner",
+      "properties": {
+        "vexsim.simDirectory": {
+          "type": "string",
+          "default": "",
+          "description": "Absolute path to the root of the Vex Sim project (contains CMakeLists.txt)"
+        },
+        "vexsim.cmakePreset": {
+          "type": "string",
+          "default": "msys2-ucrt64-lemlib",
+          "description": "CMake configure preset to use (from CMakePresets.json in the sim directory)"
+        },
+        "vexsim.robot.wheelRadiusIn": {
+          "type": "number",
+          "default": 1.625,
+          "description": "Drive wheel radius in inches (3.25\" wheel → 1.625)"
+        },
+        "vexsim.robot.trackWidthIn": {
+          "type": "number",
+          "default": 12.0,
+          "description": "Distance between left and right wheel centers in inches"
+        },
+        "vexsim.robot.maxRpm": {
+          "type": "number",
+          "default": 600,
+          "enum": [200, 600, 1800],
+          "description": "Motor cartridge max RPM (200 = red, 600 = blue, 1800 = green)"
+        },
+        "vexsim.robot.massKg": {
+          "type": "number",
+          "default": 10.0,
+          "description": "Robot mass in kg — used to derive the inertia time constant"
+        },
+        "vexsim.robot.driveMotorCount": {
+          "type": "number",
+          "default": 6,
+          "description": "Total number of drive motors (left + right) — used for inertia calculation"
+        },
+        "vexsim.robot.leftPorts": {
+          "type": "array",
+          "items": { "type": "number" },
+          "default": [4, 5, 6],
+          "description": "Left drive motor port numbers (up to 4)"
+        },
+        "vexsim.robot.rightPorts": {
+          "type": "array",
+          "items": { "type": "number" },
+          "default": [1, 2, 3],
+          "description": "Right drive motor port numbers (up to 4)"
+        },
+        "vexsim.robot.trackingLeftPort": {
+          "type": "number",
+          "default": 0,
+          "description": "Left tracking wheel rotation sensor port (0 = use drive motor encoders)"
+        },
+        "vexsim.robot.trackingRightPort": {
+          "type": "number",
+          "default": 0,
+          "description": "Right tracking wheel rotation sensor port (0 = disabled)"
+        },
+        "vexsim.robot.trackingMidPort": {
+          "type": "number",
+          "default": 0,
+          "description": "Middle (strafe) tracking wheel rotation sensor port (0 = disabled)"
+        },
+        "vexsim.robot.trackingWheelRadiusIn": {
+          "type": "number",
+          "default": 1.0,
+          "description": "Tracking wheel radius in inches"
+        },
+        "vexsim.robot.widthIn": {
+          "type": "number",
+          "default": 8.0,
+          "description": "Robot width in inches (used for field boundary collision)"
+        },
+        "vexsim.robot.heightIn": {
+          "type": "number",
+          "default": 8.0,
+          "description": "Robot height/length in inches (used for field boundary collision)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.0.0",
+    "@vscode/vsce": "^2.0.0"
+  }
+}

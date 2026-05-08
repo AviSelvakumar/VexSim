@@ -122,7 +122,13 @@ int32_t motor_tare_position(int8_t port) {
     return 1;
 }
 
-int32_t motor_set_brake_mode(int8_t port, motor_brake_mode_e_t mode) { return 1; }
+int32_t motor_set_brake_mode(int8_t port, motor_brake_mode_e_t mode) {
+    if (!is_valid(port)) return PROS_ERR;
+    int bm = (mode == E_MOTOR_BRAKE_HOLD)  ? 2 :
+             (mode == E_MOTOR_BRAKE_BRAKE) ? 1 : 0;
+    sim::SimState::get().motors[abs_port(port)].brake_mode_int.store(bm);
+    return 1;
+}
 int32_t motor_set_current_limit(int8_t port, int32_t limit)          { return 1; }
 int32_t motor_set_encoder_units(int8_t port, motor_encoder_units_e_t u) { return 1; }
 int32_t motor_set_gearing(int8_t port, motor_gearset_e_t g)          { return 1; }

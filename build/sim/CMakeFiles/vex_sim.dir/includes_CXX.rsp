@@ -1,1 +1,1 @@
--IC:/Users/avise/VEXSIM~1/sim/include -IC:/Users/avise/VEXSIM~1/stubs/include -IC:/Users/avise/LEMLIB~1/LemLib/include -IC:/Users/avise/VEXSIM~1/robot -isystem C:/msys64/ucrt64/include/SDL2
+-IC:/Users/avise/VEXSIM~1/sim/include -IC:/Users/avise/VEXSIM~1/stubs/include -I"C:/Users/avise/LemLib-0.5.6/include" -IC:/Users/avise/VEXSIM~1/robot -I"c:/Users/avise/VEX-26-States/include" -isystem C:/msys64/ucrt64/include/SDL2

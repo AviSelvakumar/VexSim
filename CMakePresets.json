@@ -40,7 +40,7 @@
       "displayName": "MSYS2 UCRT64 + LemLib",
       "inherits": "msys2-ucrt64",
       "cacheVariables": {
-        "LEMLIB_DIR": "C:/Users/avise/LemLib"
+        "LEMLIB_DIR": "C:/Users/avise/LemLib-0.5.6"
       }
     }
   ]

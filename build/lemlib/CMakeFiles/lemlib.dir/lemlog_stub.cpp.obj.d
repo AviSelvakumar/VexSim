@@ -116,7 +116,7 @@ lemlib/CMakeFiles/lemlib.dir/lemlog_stub.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/array \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/move_only_function.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/mofunc_impl.h \
- C:/Users/avise/LEMLIB~1/LemLib/include/LemLog/logger/Sink.hpp \
+ C:/Users/avise/LemLib/include/LemLog/logger/Sink.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/string \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h \

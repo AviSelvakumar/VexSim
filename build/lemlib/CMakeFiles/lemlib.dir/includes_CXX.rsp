@@ -1,1 +1,1 @@
--IC:/Users/avise/VEXSIM~1/stubs/include -IC:/Users/avise/LEMLIB~1/LemLib/include/lemlib -IC:/Users/avise/LEMLIB~1/LemLib/include
+-IC:/Users/avise/VEXSIM~1/stubs/include -I"C:/Users/avise/LemLib-0.5.6/include/lemlib" -I"C:/Users/avise/LemLib-0.5.6/include"

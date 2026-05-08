@@ -129,581 +129,581 @@ lemlib/fast:
 	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/build
 .PHONY : lemlib/fast
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.cpp.s
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.obj: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.obj: C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.obj
 
 # target to build an object file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.obj
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.obj
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.i: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.i: C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.i
 
 # target to preprocess a source file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.i
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.i
 
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.s: C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.s: C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.s
 
 # target to generate assembly for a file
-C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s:
-	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s
-.PHONY : C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.cpp.s
+C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s:
+	cd /d C:\Users\avise\VEXSIM~1\build && $(MAKE) $(MAKESILENT) -f lemlib\CMakeFiles\lemlib.dir\build.make lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s
+.PHONY : C_/Users/avise/LemLib-0.5.6/src/lemlib/util.cpp.s
 
 # Help Target
 help:
@@ -714,78 +714,78 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lemlib
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/chassis.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPoint.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/moveToPose.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/pursuit.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToHeading.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/swingToPoint.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToHeading.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/motions/turnToPoint.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/odom.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/opcontrol.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/chassis/trackingWheel.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/driveCurve.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/exitcondition.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/baseSink.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/buffer.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/infoSink.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/logger.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/message.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/stdout.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/logger/telemetrySink.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pid.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/pose.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/timer.s
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.obj
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.i
-	@echo ... C_/Users/avise/LemLib_Source/LemLib/src/lemlib/util.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/chassis.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPoint.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/moveToPose.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/pursuit.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToHeading.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/swingToPoint.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToHeading.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/motions/turnToPoint.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/odom.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/opcontrol.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/chassis/trackingWheel.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/driveCurve.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/exitcondition.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/baseSink.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/buffer.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/infoSink.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/logger.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/message.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/stdout.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/logger/telemetrySink.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pid.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/pose.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/timer.s
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/util.obj
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/util.i
+	@echo ... C_/Users/avise/LemLib-0.5.6/src/lemlib/util.s
 .PHONY : help
 
 

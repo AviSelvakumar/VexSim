@@ -8,55 +8,83 @@
 #include "sim/Scheduler.hpp"
 #include <algorithm>
 #include <cstdio>
+#include <cstring>
+#include <sstream>
+#include <vector>
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Robot configuration — edit these to match your robot's port layout
-// ─────────────────────────────────────────────────────────────────────────────
-// ─────────────────────────────────────────────────────────────────────────────
-// Scaling guide:
-//   The field is 720x720 px representing a 12ft x 12ft VEX field.
-//   1 tile = 120 px = 24 inches  →  1 inch ≈ 5 px  (1 cm ≈ 2 px)
-//
-//   Set wheel_radius_px  = physical_wheel_radius_inches * 5.0
-//   Set track_width_px   = physical_track_width_inches  * 5.0
-//   LemLib TrackingWheel diameter should equal physical_wheel_diameter_inches.
-// ─────────────────────────────────────────────────────────────────────────────
-static sim::RobotConfig makeRobotConfig() {
+// ─── CLI arg parsing ──────────────────────────────────────────────────────────
+
+static std::vector<int> parsePorts(const char* s) {
+    std::vector<int> out;
+    std::stringstream ss(s);
+    std::string tok;
+    while (std::getline(ss, tok, ',')) {
+        int v = std::stoi(tok);
+        if (v != 0) out.push_back(v);
+    }
+    return out;
+}
+
+static const char* argval(int argc, char** argv, const char* flag, const char* def) {
+    for (int i = 1; i + 1 < argc; ++i)
+        if (std::strcmp(argv[i], flag) == 0) return argv[i + 1];
+    return def;
+}
+
+static sim::RobotConfig buildConfig(int argc, char** argv) {
+    // Helpers — convert to the values we need
+    auto dbl  = [&](const char* flag, double def) {
+        return std::stod(argval(argc, argv, flag, std::to_string(def).c_str()));
+    };
+    auto ports = [&](const char* flag, const char* def) -> std::array<int,4> {
+        auto v = parsePorts(argval(argc, argv, flag, def));
+        std::array<int,4> a = {0,0,0,0};
+        for (int i = 0; i < (int)v.size() && i < 4; ++i) a[i] = v[i];
+        return a;
+    };
+
     sim::RobotConfig cfg;
 
-    // ── Physical dimensions (1 in = 5 px) ────────────────────────────────────
-    // 3.25" diameter drive wheels → radius = 1.625" → ~8px
-    cfg.wheel_radius_px  = 8.0;
-    // 12" track width → 60px
-    cfg.track_width_px   = 60.0;
-    cfg.max_rpm          = 600.0;  // 600 RPM blue cartridge
+    // Physical — convert inches to pixels (1 in = 5 px)
+    double wheel_radius_in        = dbl("--wheel-radius",    1.625);
+    double track_width_in         = dbl("--track-width",     12.0);
+    double tracking_wheel_radius  = dbl("--tracking-radius", 1.0);
+    double robot_width_in         = dbl("--robot-width",     8.0);
+    double robot_height_in        = dbl("--robot-height",    8.0);
 
-    cfg.field_w          = 720.0;
-    cfg.field_h          = 720.0;
-    cfg.robot_half_w     = 20.0;
-    cfg.robot_half_h     = 20.0;
+    cfg.wheel_radius_px           = wheel_radius_in        * 5.0;
+    cfg.track_width_px            = track_width_in         * 5.0;
+    cfg.tracking_wheel_radius_px  = tracking_wheel_radius  * 5.0;
+    cfg.robot_half_w              = (robot_width_in  / 2.0) * 5.0;
+    cfg.robot_half_h              = (robot_height_in / 2.0) * 5.0;
 
-    // ── Drive motor ports ─────────────────────────────────────────────────────
-    // Match these to your robot/main.cpp motor port numbers.
-    cfg.left_ports       = {4, 5, 6, 0};
-    cfg.right_ports      = {1, 2, 3, 0};
+    cfg.max_rpm    = dbl("--max-rpm", 600.0);
+    cfg.field_w    = 720.0;
+    cfg.field_h    = 720.0;
 
-    // ── Dedicated tracking wheel ports (optional) ─────────────────────────────
-    // If your robot uses pros::Rotation sensors on separate ports for odometry,
-    // set these so the physics engine updates those encoder values.
-    // Leave at 0 to use drive motor encoders only (odometry via Motor::get_position).
-    //
-    // Example: LemLib with 2.75" tracking wheels on ports 7 & 8:
-    //   cfg.tracking_left_port       = 7;
-    //   cfg.tracking_right_port      = 8;
-    //   cfg.tracking_wheel_radius_px = 2.75 / 2.0 * 5.0;  // 6.875 px
-    cfg.tracking_left_port       = 16;
-    cfg.tracking_right_port      = 0;
-    cfg.tracking_mid_port        = 17;     // always 0 for diff-drive
-    cfg.tracking_wheel_radius_px = (2.00 / 2.0) * 5.0; // 2.75" wheel (unused when ports = 0)
+    // Inertia — tau = m * v_max² / (4 * N * P)
+    double mass_kg         = dbl("--mass",         10.0);
+    double drive_motors    = dbl("--drive-motors",  6.0);
+    double r_m             = (cfg.wheel_radius_px / 5.0) * 0.0254;
+    double v_max           = (cfg.max_rpm / 60.0) * 2.0 * M_PI * r_m;
+    cfg.accel_time_constant = (mass_kg * v_max * v_max) / (4.0 * drive_motors * 11.0);
+
+    // Motor ports
+    cfg.left_ports  = ports("--left-ports",  "4,5,6");
+    cfg.right_ports = ports("--right-ports", "1,2,3");
+
+    // Tracking wheel ports (0 = disabled)
+    auto iarg = [&](const char* flag, int def) {
+        return std::stoi(argval(argc, argv, flag, std::to_string(def).c_str()));
+    };
+    cfg.tracking_left_port  = iarg("--tracking-left",  0);
+    cfg.tracking_right_port = iarg("--tracking-right", 0);
+    cfg.tracking_mid_port   = iarg("--tracking-mid",   0);
 
     return cfg;
 }
+
+// ─── main ─────────────────────────────────────────────────────────────────────
 
 int main(int argc, char* argv[]) {
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER) != 0) {
@@ -66,7 +94,7 @@ int main(int argc, char* argv[]) {
 
     constexpr int FIELD_W = 720;
     constexpr int FIELD_H = 720;
-    constexpr int WIN_H   = FIELD_H + 80; // extra for HUD
+    constexpr int WIN_H   = FIELD_H + 80;
 
     SDL_Window* window = SDL_CreateWindow(
         "VEX V5 Simulator  |  F5=Auto  F6=Drive  F7=Disable  ESC=Quit",
@@ -91,15 +119,14 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    sim::RobotConfig cfg = makeRobotConfig();
+    sim::RobotConfig cfg = buildConfig(argc, argv);
 
-    // Set robot starting position to field center, facing "north" (up on screen)
     {
         auto& state = sim::SimState::get();
         std::lock_guard<std::mutex> lock(state.pose_mutex);
         state.pose.x       = FIELD_W / 2.0;
         state.pose.y       = FIELD_H / 2.0;
-        state.pose.heading = -M_PI / 2.0; // -90° = facing up (+Y is down in SDL)
+        state.pose.heading = -M_PI / 2.0;
         state.pose.heading_accumulated = 0.0;
     }
 
@@ -111,7 +138,6 @@ int main(int argc, char* argv[]) {
     printf("Controls: WASD = left stick, Arrow keys = right stick\n");
     printf("Buttons: L=L1  ;=L2  P=R1  [=R2  1=X  2=B  3=Y  4=A\n");
 
-    // Launch robot code thread (calls initialize() immediately)
     sim::Scheduler::get().start();
 
     uint32_t last_ticks = SDL_GetTicks();
@@ -120,7 +146,6 @@ int main(int argc, char* argv[]) {
         uint32_t now = SDL_GetTicks();
         double dt    = (now - last_ticks) / 1000.0;
         last_ticks   = now;
-        // Cap dt to avoid spiral-of-death after focus loss
         dt = std::min(dt, 0.05);
 
         if (!input.poll(sim::SimState::get())) break;

@@ -215,31 +215,7 @@ lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib/src/lemlib/MotionCancelHelper
  C:/msys64/ucrt64/include/c++/14.2.0/ratio \
  C:/msys64/ucrt64/include/c++/14.2.0/utility \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
- C:/Users/avise/LemLib/include/pros/rtos.hpp \
- C:/Users/avise/LemLib/include/pros/rtos.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:/msys64/ucrt64/include/c++/14.2.0/chrono \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono.h \
- C:/msys64/ucrt64/include/c++/14.2.0/sstream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/allocated_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/ext/concurrence.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono_io.h \
- C:/msys64/ucrt64/include/c++/14.2.0/iomanip \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/quoted_string.h \
- C:/msys64/ucrt64/include/c++/14.2.0/memory \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_wait.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_mutex.h \
- C:/msys64/ucrt64/include/c++/14.2.0/backward/auto_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_uninitialized.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/out_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- C:/Users/avise/LemLib/include/pros/misc.h
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/rtos.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/rtos.h \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/error.h \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/misc.h

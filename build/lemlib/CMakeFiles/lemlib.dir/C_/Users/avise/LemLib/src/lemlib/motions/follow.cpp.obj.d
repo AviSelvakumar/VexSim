@@ -217,44 +217,18 @@ lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib/src/lemlib/motions/follow.cpp
  C:/msys64/ucrt64/include/c++/14.2.0/ratio \
  C:/msys64/ucrt64/include/c++/14.2.0/utility \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
- C:/Users/avise/LemLib/include/pros/rtos.hpp \
- C:/Users/avise/LemLib/include/pros/rtos.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:/msys64/ucrt64/include/c++/14.2.0/chrono \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono.h \
- C:/msys64/ucrt64/include/c++/14.2.0/sstream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/allocated_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/ext/concurrence.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono_io.h \
- C:/msys64/ucrt64/include/c++/14.2.0/iomanip \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/quoted_string.h \
- C:/msys64/ucrt64/include/c++/14.2.0/memory \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_wait.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_mutex.h \
- C:/msys64/ucrt64/include/c++/14.2.0/backward/auto_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_uninitialized.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/out_ptr.h \
- C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/rtos.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/rtos.h \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/error.h \
  C:/Users/avise/LemLib/include/lemlib/PID.hpp \
  C:/Users/avise/LemLib/include/hardware/Motor/MotorGroup.hpp \
- C:/Users/avise/LemLib/include/pros/motor_group.hpp \
- C:/Users/avise/LemLib/include/pros/abstract_motor.hpp \
- C:/Users/avise/LemLib/include/pros/device.hpp \
- C:/Users/avise/LemLib/include/pros/misc.hpp \
- C:/Users/avise/LemLib/include/pros/misc.h \
- C:/Users/avise/LemLib/include/pros/motors.h \
- C:/Users/avise/LemLib/include/pros/rtos.hpp \
- C:/Users/avise/LemLib/include/pros/colors.hpp \
- C:/Users/avise/LemLib/include/pros/motors.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/motor_group.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/motors.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/abstract_motor.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/motors.h \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/device.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/misc.hpp \
+ C:/Users/avise/Vex\ Sim/stubs/include/pros/misc.h \
  C:/Users/avise/LemLib/include/hardware/Motor/Motor.hpp \
  C:/Users/avise/LemLib/include/hardware/Encoder/Encoder.hpp \
  C:/Users/avise/LemLib/include/units/Angle.hpp \
@@ -269,6 +243,7 @@ lemlib/CMakeFiles/lemlib.dir/C_/Users/avise/LemLib/src/lemlib/motions/follow.cpp
  C:/Users/avise/LemLib/include/lemlog/logger/Sink.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/list \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/allocated_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/list.tcc \
  C:/Users/avise/LemLib/include/lemlib/MotionCancelHelper.hpp \
  C:/Users/avise/LemLib/include/lemlib/Timer.hpp \

@@ -52,7 +52,7 @@ public:
     void remove();
 
     uint32_t notify();
-    uint32_t notify_take(bool clear_on_exit, uint32_t timeout);
+    static uint32_t notify_take(bool clear_on_exit, uint32_t timeout);
 
     task_state_e_t get_state();
     char*          get_name();

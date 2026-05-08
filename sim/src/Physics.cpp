@@ -8,29 +8,53 @@ namespace sim {
 
 Physics::Physics(const RobotConfig& cfg) : cfg_(cfg) {}
 
-double Physics::averageVoltage(const std::array<int, 4>& ports) const {
+double Physics::averageEffectiveVoltage(const std::array<int, 4>& ports, double speed_frac) const {
     double sum = 0.0;
     int count  = 0;
     for (int port : ports) {
         if (port <= 0) break;
-        sum += SimState::get().motors[port].voltage.load();
+        sum += SimState::get().motors[port].get_effective_voltage(speed_frac);
         ++count;
     }
     return count > 0 ? sum / count : 0.0;
 }
 
+bool Physics::allCoast(const std::array<int, 4>& ports) const {
+    for (int port : ports) {
+        if (port <= 0) break;
+        if (SimState::get().motors[port].brake_mode_int.load() >= 1) return false;
+    }
+    return true;
+}
+
 void Physics::step(double dt_sec) {
     auto& state = SimState::get();
-
-    double left_v  = averageVoltage(cfg_.left_ports);   // -127..127
-    double right_v = averageVoltage(cfg_.right_ports);
 
     // Max linear wheel speed in pixels/sec
     double wheel_circ = 2.0 * M_PI * cfg_.wheel_radius_px;
     double max_speed  = (cfg_.max_rpm / 60.0) * wheel_circ;
 
-    double vL = (left_v  / 127.0) * max_speed;
-    double vR = (right_v / 127.0) * max_speed;
+    // Motors report their own effective voltage:
+    //   - Powered:     commanded voltage (normal drive)
+    //   - BRAKE/HOLD + unpowered: back-EMF opposing current motion (motor generates this)
+    //   - COAST + unpowered:      0 (motor disconnected)
+    double eff_vL = averageEffectiveVoltage(cfg_.left_ports,  vL_ / max_speed);
+    double eff_vR = averageEffectiveVoltage(cfg_.right_ports, vR_ / max_speed);
+
+    double target_vL = (eff_vL / 127.0) * max_speed;
+    double target_vR = (eff_vR / 127.0) * max_speed;
+
+    // COAST uses a long friction-only tau; powered/braking uses the motor tau.
+    double tauL = (std::abs(eff_vL) < 1e-3 && allCoast(cfg_.left_ports))
+                  ? cfg_.coast_time_constant : cfg_.accel_time_constant;
+    double tauR = (std::abs(eff_vR) < 1e-3 && allCoast(cfg_.right_ports))
+                  ? cfg_.coast_time_constant : cfg_.accel_time_constant;
+
+    vL_ += (target_vL - vL_) * std::min(1.0, dt_sec / tauL);
+    vR_ += (target_vR - vR_) * std::min(1.0, dt_sec / tauR);
+
+    double vL = vL_;
+    double vR = vR_;
 
     // Differential drive kinematics
     double v     = (vL + vR) / 2.0;                       // linear velocity px/s
