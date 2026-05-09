@@ -63,44 +63,55 @@ begin
   Result  := Pos('msys64\ucrt64\bin', LowerCase(SysPath)) > 0;
 end;
 
-function InitializeSetup(): Boolean;
-var
-  CmakeOk, GccOk, MakeOk, LdOk, PathOk, Sdl2Ok: Boolean;
-  Msg: String;
+function PrerequisitesOk(): Boolean;
 begin
-  CmakeOk := OnPath('cmake');
-  GccOk   := OnPath('gcc')          or FileExists('C:\msys64\ucrt64\bin\gcc.exe');
-  MakeOk  := OnPath('mingw32-make') or FileExists('C:\msys64\ucrt64\bin\mingw32-make.exe');
-  LdOk    := FileExists('C:\msys64\ucrt64\bin\lld.exe');
-  PathOk  := Ucrt64OnWindowsPath();
-  Sdl2Ok  := FileExists('C:\msys64\ucrt64\lib\cmake\SDL2\SDL2Config.cmake');
+  Result :=
+    OnPath('cmake') and
+    (OnPath('gcc')          or FileExists('C:\msys64\ucrt64\bin\gcc.exe')) and
+    (OnPath('mingw32-make') or FileExists('C:\msys64\ucrt64\bin\mingw32-make.exe')) and
+    FileExists('C:\msys64\ucrt64\bin\lld.exe') and
+    FileExists('C:\msys64\ucrt64\lib\cmake\SDL2\SDL2Config.cmake') and
+    Ucrt64OnWindowsPath();
+end;
 
-  if not CmakeOk or not GccOk or not MakeOk or not LdOk or not PathOk or not Sdl2Ok then
+procedure InstallPrerequisites();
+var
+  Script, ScriptPath: String;
+  ResultCode: Integer;
+begin
+  ScriptPath := ExpandConstant('{tmp}\vexsim_prereqs.ps1');
+
+  Script :=
+    'winget install Kitware.CMake MSYS2.MSYS2 --accept-package-agreements --accept-source-agreements --silent' + #13#10 +
+    'C:\msys64\usr\bin\pacman.exe -S --noconfirm mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2' + #13#10 +
+    '$p = [System.Environment]::GetEnvironmentVariable("Path", "Machine")' + #13#10 +
+    'if ($p -notlike "*ucrt64\bin*") { [System.Environment]::SetEnvironmentVariable("Path", $p + ";C:\msys64\ucrt64\bin", "Machine") }';
+
+  SaveStringToFile(ScriptPath, Script, False);
+
+  Exec('powershell.exe',
+       '-NoProfile -ExecutionPolicy Bypass -File "' + ScriptPath + '"',
+       '', SW_SHOW, ewWaitUntilTerminated, ResultCode);
+
+  if ResultCode <> 0 then
+    MsgBox('Prerequisite installation finished with warnings (code ' + IntToStr(ResultCode) + ').' + #13#10 +
+           'Run Sim may still work — check the output window for details.',
+           mbInformation, MB_OK);
+end;
+
+function InitializeSetup(): Boolean;
+begin
+  if not PrerequisitesOk() then
   begin
-    Msg := 'VEX Sim requires the following tools to build robot code.' + #13#10 +
-           'One or more issues were found:' + #13#10 + #13#10;
-    if not CmakeOk then
-      Msg := Msg + '  [MISSING]  CMake  (cmake.exe not on PATH)' + #13#10;
-    if not GccOk then
-      Msg := Msg + '  [MISSING]  MSYS2 UCRT64 gcc  (gcc.exe not found)' + #13#10;
-    if not MakeOk then
-      Msg := Msg + '  [MISSING]  MSYS2 UCRT64 make  (mingw32-make.exe not found)' + #13#10;
-    if not LdOk then
-      Msg := Msg + '  [MISSING]  MSYS2 UCRT64 lld  (lld.exe not found)' + #13#10;
-    if not Sdl2Ok then
-      Msg := Msg + '  [MISSING]  MSYS2 UCRT64 SDL2  (SDL2Config.cmake not found)' + #13#10;
-    if not PathOk then
-      Msg := Msg + '  [WARNING]  C:\msys64\ucrt64\bin is not on the Windows system PATH.' + #13#10 +
-                   '             Without this, the compiler cannot find its own DLLs.' + #13#10;
-    Msg := Msg + #13#10 +
-           'VEX Sim will still be installed, but Run Sim will fail until these are fixed.' + #13#10 + #13#10 +
-           'Install guides:' + #13#10 +
-           '  CMake  ->  https://cmake.org/download' + #13#10 +
-           '  MSYS2  ->  https://www.msys2.org' + #13#10 + #13#10 +
-           'After installing MSYS2, open the UCRT64 terminal and run:' + #13#10 +
-           '  pacman -S mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2' + #13#10 + #13#10 +
-           'Then add C:\msys64\ucrt64\bin to your Windows system PATH.';
-    MsgBox(Msg, mbInformation, MB_OK);
+    if MsgBox(
+      'VEX Sim needs CMake, MSYS2, and a C++ toolchain to build robot code.' + #13#10 +
+      'One or more are missing or not configured.' + #13#10 + #13#10 +
+      'Would you like the installer to set them up automatically?' + #13#10 +
+      '(requires winget and an internet connection — takes a few minutes)',
+      mbConfirmation, MB_YESNO) = IDYES then
+    begin
+      InstallPrerequisites();
+    end;
   end;
 
   Result := True;
