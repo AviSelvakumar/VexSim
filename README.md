@@ -131,8 +131,8 @@ Note that currently, the only supported library outside of PROS is LemLib. Addin
 ## Roadmap
 
 - [ ] Support for more libraries
-- [ ] Support for distance sensor
-- [ ] AprilTag support
+- [ ] Proper drivetrain gear ratio support
+- [ ] Support for 5.5w motors
 
 See the [open issues](https://github.com/AviSelvakumar/VexSim/issues) for a full list of proposed features (and known issues).
 
@@ -159,7 +159,7 @@ Don't forget to give the project a star! Thanks again!
 ### Top contributors:
 
 <a href="https://github.com/AviSelvakumar/VexSim/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AviSelvakumar/VexSim" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=AviSelvakumar/VexSim" />
 </a>
 
 
@@ -167,7 +167,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPL V3 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
