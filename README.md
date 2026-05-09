@@ -159,7 +159,7 @@ Don't forget to give the project a star! Thanks again!
 ### Top contributors:
 
 <a href="https://github.com/AviSelvakumar/VexSim/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AviSelvakumar/VexSim" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=AviSelvakumar/VexSim" />
 </a>
 
 
