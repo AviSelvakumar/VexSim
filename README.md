@@ -176,7 +176,7 @@ Distributed under the GPL V3 License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@avinashselvakumar](https://discord.com/users/897920475269853205) - [aviselvak@avinashselvakumar.me](mailto:aviselvak@avinashselvakumar.me)
+Avinash Selvakumar - [@avinashselvakumar](https://discord.com/users/897920475269853205) - [aviselvak@avinashselvakumar.me](mailto:aviselvak@avinashselvakumar.me)
 
 Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSelvakumar/VexSim)
 
