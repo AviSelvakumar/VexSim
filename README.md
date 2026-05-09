@@ -154,6 +154,78 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### Adding New Libraries
+
+**1. Get the library source**
+
+Clone or download it somewhere on your machine, e.g. `C:\MyLib-1.0.0`.
+
+
+**2. Create a wrapper CMakeLists.txt**
+
+Add a new directory in the project, e.g. `mylib/`, with a `CMakeLists.txt` modelled on `lemlib/CMakeLists.txt`:
+
+```cmake
+if(NOT DEFINED MYLIB_DIR OR MYLIB_DIR STREQUAL "")
+    message(STATUS "MYLIB_DIR not set — MyLib will not be compiled.")
+    return()
+endif()
+
+file(GLOB_RECURSE MYLIB_SOURCES "${MYLIB_DIR}/src/*.cpp")
+
+add_library(mylib STATIC ${MYLIB_SOURCES})
+
+target_include_directories(mylib PUBLIC "${MYLIB_DIR}/include")
+target_include_directories(mylib BEFORE PRIVATE ${CMAKE_SOURCE_DIR}/stubs/include)
+
+target_link_libraries(mylib PUBLIC pros_stubs Threads::Threads)
+target_compile_features(mylib PUBLIC cxx_std_17)
+target_compile_options(mylib PRIVATE -w)  # suppress warnings in library code
+```
+
+
+**3. Register it in the top-level CMakeLists.txt**
+
+```cmake
+add_subdirectory(mylib)
+```
+
+
+**4. Link it to robot code**
+
+In `robot/CMakeLists.txt`, add it alongside lemlib:
+```cmake
+target_link_libraries(robot_code PRIVATE mylib)
+```
+
+
+**5. Add the preset variable**
+
+In `CMakePresets.json`, add `MYLIB_DIR` to the `msys2-ucrt64-lemlib` preset:
+```json
+"MYLIB_DIR": "${sourceDir}/mylib-src"
+```
+
+
+**6. Create the junction on your dev machine**
+
+```powershell
+New-Item -ItemType Junction -Path "C:\VEX Sim\mylib-src" -Target "C:\MyLib-1.0.0"
+```
+
+
+**7. Add to the installer**
+
+In `installer/VexSim.iss`, add a `[Files]` entry:
+```
+Source: "C:\MyLib-1.0.0\*"; DestDir: "{app}\mylib-src"; Flags: ignoreversion recursesubdirs
+```
+
+
+**8. Add stubs if needed**
+
+If the library calls PROS APIs that the stubs don't implement yet, you'll see linker errors. Add the missing functions to the appropriate file in `stubs/src/` — they just need to return a sensible default value.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Top contributors:
