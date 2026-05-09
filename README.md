@@ -98,33 +98,26 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+This project requires CMake and MSYS2, along with some additional libraries.
+You may run the following command in [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.6#run-from-the-start-menu) to automatically install all prerequisites:
+```powershell
+winget install Kitware.CMake MSYS2.MSYS2 --accept-package-agreements --accept-source-agreements --silent
+C:\msys64\usr\bin\pacman.exe -S --noconfirm mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2
+$p = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+if ($p -notlike "*ucrt64\bin*") { [System.Environment]::SetEnvironmentVariable("Path", $p + ";C:\msys64\ucrt64\bin", "Machine") }
+```
+Alternatively, 
+1. Install [CMake](https://cmake.org/download/), check "Add to PATH" during install
+2. Install [MSYS2](https://www.msys2.org/), then run the app and type in the following command to install all required libraries:
+`pacman -S mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2`
+3. Add C:\msys64\ucrt64\bin to the Windows system PATH ([How to Add Executable to your PATH in Windows](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53))
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Run VexSimSetup.exe
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/AviSelvakumar/VexSim.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin AviSelvakumar/VexSim
-   git remote -v # confirm the changes
-   ```
+1. Download the installer from releases
+2. Run the installer, and follow the prompts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +184,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@avinashselvakumar](https://discord.com/users/897920475269853205) - [aviselvak@avinashselvakumar.me](mailto:aviselvak@avinashselvakumar.me)
 
 Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSelvakumar/VexSim)
 
@@ -202,9 +195,8 @@ Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSe
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [PROS Team at Purdue](https://github.com/purduesigbots/pros)
+* [LemLib](https://github.com/LemLib/LemLib)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,23 +214,4 @@ Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSe
 [issues-url]: https://github.com/AviSelvakumar/VexSim/issues
 [license-shield]: https://img.shields.io/github/license/AviSelvakumar/VexSim.svg?style=for-the-badge
 [license-url]: https://github.com/AviSelvakumar/VexSim/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-<!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
