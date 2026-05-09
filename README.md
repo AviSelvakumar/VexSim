@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AviSelvakumar/VexSim">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="[images/logo.png](https://ghrb.waren.build/banner?header=VexSim&subheader=A+simple+VEX+C%2B%2B+code+simulator+to+speed+up+development&bg=431586-9231A8&color=FFFFFF)" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">VexSim</h3>
