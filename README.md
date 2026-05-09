@@ -1,3 +1,4 @@
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -74,8 +75,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Through my years competing in VEX, I noticed that a major limiting factor in the development speed of our robot was our inability to code and build in parallel. The programming team would have to wait for the build team to finish to start on their tasks, and doing both at the same time would slow everybody down. To solve this, I used some of the idle time I had waiting for our build teams building a simulator to parallelize build and programming operations. 
 
 While the simulator can be useful, it should only be used as a starting point. Almost always, the code will need to be refined after succeeding in the simulator.
@@ -89,26 +88,29 @@ While the simulator can be useful, it should only be used as a starting point. A
 To get started, follow the installation steps:
 
 ### Prerequisites
-This project requires CMake and MSYS2, along with some additional libraries.
-You may run the following command in [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.6#run-from-the-start-menu) to automatically install all prerequisites:
+This project requires CMake and MSYS2, along with some additional libraries. There are several ways to install the prerequisites:
+
+#### 1. Automatic Installation (reccomended)
+This is the simplest method. Simply download VexSimSetup.exe from releases. If you do not have the prerequisites, you will be prompted to automatically install them. Click yes, and then prerequisites will be installed.
+#### 2. Powershell Installation
+You may also run the following command in [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.6#run-from-the-start-menu) to install all prerequisites:
 ```powershell
 winget install Kitware.CMake MSYS2.MSYS2 --accept-package-agreements --accept-source-agreements --silent
 C:\msys64\usr\bin\pacman.exe -S --noconfirm mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2
 $p = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
 if ($p -notlike "*ucrt64\bin*") { [System.Environment]::SetEnvironmentVariable("Path", $p + ";C:\msys64\ucrt64\bin", "Machine") }
 ```
+#### 3. Manual Installation
 Alternatively, 
-1. Install [CMake](https://cmake.org/download/), check "Add to PATH" during install
-2. Install [MSYS2](https://www.msys2.org/), then run the app and type in the following command to install all required libraries:
+2. Install [CMake](https://cmake.org/download/), check "Add to PATH" during install
+3. Install [MSYS2](https://www.msys2.org/), then run the app and type in the following command to install all required libraries:
 `pacman -S mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2`
-3. Add C:\msys64\ucrt64\bin to the Windows system PATH ([How to Add Executable to your PATH in Windows](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53))
-
-Run VexSimSetup.exe
+4. Add C:\msys64\ucrt64\bin to the Windows system PATH ([How to Add Executable to your PATH in Windows](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53))
 
 ### Installation
 
-1. Download the installer from releases
-2. Run the installer, and follow the prompts
+1. Download the latest installer from releases
+2. Run the installer and follow the prompts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,11 +118,47 @@ Run VexSimSetup.exe
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+To access the extention, open a PROS project in VSCode, and a button in the bottom-left corner will appear reading "Run Sim.":
 
-When you open a PROS project in VSCode, a button in the bottom-left corner will appear reading "Run Sim." Click on it to build your project and launch the simulator.
 <img width="293" height="153" alt="image" src="https://github.com/user-attachments/assets/09d3ae64-99bc-4b1d-99e3-b74ce24dc1c9" />
 
-Note that currently, the only supported library outside of PROS is LemLib. Adding libraries is fairly straightforward (directions are under [Contributing](#contributing)). If you do add support for another library yourself, please submit a PR! It would really help a lot. If you want a library added, open up an issue or contact me otherwise and I would be more than happy to add it in for you (give me like a week).
+### Configuration
+First, ensure that you are within a PROS project. Next, right-click on the "Run Sim" button and select "Manage Extention." After clicking manage extention, click on the settings icon below the extention title:
+<img width="1920" height="1020" alt="Screenshot 2026-05-09 145750" src="https://github.com/user-attachments/assets/ff972f8b-d459-430a-8fd7-3814b862c842" />
+</br>
+After clicking the settings icon, click "Settings" from the menu that appears:
+</br>
+<img width="1920" height="1020" alt="Screenshot 2026-05-09 145814" src="https://github.com/user-attachments/assets/f556f823-715f-4794-833c-657ce0cbac02" />
+</br>
+You should now be in the extention settings menu. From here, configure the drive and tracking ports to match your code, along with physical dimensions. _**Your code shouldn't reverse any drive motors.**_
+
+### Running the Simulator
+Click on the "Run Simulator" project to build your project and launch the simulator. You can use the following controls within the simulator:
+
+| Key | Action |
+|-----|--------|
+| **F5** | Autonomous mode |
+| **F6** | Opcontrol mode |
+| **F7** | Disable |
+| **ESC** | Quit |
+| **W** | Left stick up |
+| **S** | Left stick down |
+| **A** | Left stick left |
+| **D** | Left stick right |
+| **↑** | Right stick up |
+| **↓** | Right stick down |
+| **←** | Right stick left |
+| **→** | Right stick right |
+| **L** | L1 |
+| **;** | L2 |
+| **P** | R1 |
+| **[** | R2 |
+| **1** | X button |
+| **2** | B button |
+| **3** | Y button |
+| **4** | A button |
+
+Note that currently, _**the only supported library outside of PROS is LemLib**_. Adding libraries is fairly straightforward (directions are under [Contributing](#contributing)). If you do add support for another library yourself, please submit a PR! It would really help a lot. If you want a library added, open up an issue or contact me otherwise and I would be more than happy to add it in for you (give me like a week).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,6 +171,7 @@ Note that currently, the only supported library outside of PROS is LemLib. Addin
 - [ ] Support for more libraries
 - [ ] Proper drivetrain gear ratio support
 - [ ] Support for 5.5w motors
+- [ ] Controller support
 
 See the [open issues](https://github.com/AviSelvakumar/VexSim/issues) for a full list of proposed features (and known issues).
 
