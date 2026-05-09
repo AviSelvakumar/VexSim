@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc librobot_code.a "CMakeFiles/robot_code.dir/c_/Users/avise/VEX-26-States/src/main.cpp.obj"
-C:\msys64\ucrt64\bin\ranlib.exe librobot_code.a

@@ -1,1 +1,0 @@
- C:/msys64/ucrt64/lib/libSDL2main.a libsim_engine.a ../robot/librobot_code.a ../stubs/libpros_stubs.a -lpthread -lm -lshell32 -Wl,--undefined=WinMain C:/msys64/ucrt64/lib/libSDL2.dll.a ../lemlib/liblemlib.a ../stubs/libpros_stubs.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc libsim_engine.a CMakeFiles/sim_engine.dir/src/SimState.cpp.obj CMakeFiles/sim_engine.dir/src/Physics.cpp.obj CMakeFiles/sim_engine.dir/src/Renderer.cpp.obj CMakeFiles/sim_engine.dir/src/InputHandler.cpp.obj CMakeFiles/sim_engine.dir/src/Scheduler.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe libsim_engine.a
