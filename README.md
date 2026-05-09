@@ -38,11 +38,6 @@
   <p align="center">
     A simple VEX Robotics C++ code simulator to speed up development
     <br />
-    <a href="https://github.com/AviSelvakumar/VexSim"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/AviSelvakumar/VexSim">View Demo</a>
-    &middot;
     <a href="https://github.com/AviSelvakumar/VexSim/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/AviSelvakumar/VexSim/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -57,9 +52,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -84,8 +76,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `AviSelvakumar`, `VexSim`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `VexSim`, `A simple VEX Robotics C++ code simulator to speed up development`, `project_license`
+Through my years competing in VEX, I noticed that a major limiting factor in the development speed of our robot was our inability to code and build in parallel. The programming team would have to wait for the build team to finish to start on their tasks, and doing both at the same time would slow everybody down. To solve this, I used some of the idle time I had waiting for our build teams building a simulator to parallelize build and programming operations. 
 
+While the simulator can be useful, it should only be used as a starting point. Almost always, the code will need to be refined after succeeding in the simulator.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -93,8 +86,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started, follow the installation steps:
 
 ### Prerequisites
 This project requires CMake and MSYS2, along with some additional libraries.
@@ -125,9 +117,11 @@ Run VexSimSetup.exe
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+When you open a PROS project in VSCode, a button in the bottom-left corner will appear reading "Run Sim." Click on it to build your project and launch the simulator.
+<img width="293" height="153" alt="image" src="https://github.com/user-attachments/assets/09d3ae64-99bc-4b1d-99e3-b74ce24dc1c9" />
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Note that currently, the only supported library outside of PROS is LemLib. Adding libraries is fairly straightforward (directions are under [Contributing](#contributing)). If you do add support for another library yourself, please submit a PR! It would really help a lot. If you want a library added, open up an issue or contact me otherwise and I would be more than happy to add it in for you (give me like a week).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,10 +130,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Support for more libraries
+- [ ] Support for distance sensor
+- [ ] AprilTag support
 
 See the [open issues](https://github.com/AviSelvakumar/VexSim/issues) for a full list of proposed features (and known issues).
 
@@ -174,7 +167,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
