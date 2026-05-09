@@ -43,7 +43,7 @@
         "vexsim.robot.maxRpm": {
           "type": "number",
           "default": 600,
-          "enum": [200, 600, 1800],
+          "minimum": 1,
           "description": "Motor cartridge max RPM (200 = red, 600 = blue, 1800 = green)"
         },
         "vexsim.robot.massKg": {
@@ -58,7 +58,7 @@
         },
         "vexsim.robot.gearFriction": {
           "type": "number",
-          "default": 0.0,
+          "default": 0.15,
           "minimum": 0.0,
           "maximum": 1.0,
           "description": "Gear mesh friction coefficient (0 = none, 1 = full extra braking force). Adds resistive torque from drivetrain friction during coast and brake modes."
