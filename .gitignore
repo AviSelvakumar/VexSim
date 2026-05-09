@@ -1,4 +1,18 @@
+# Build output
+build/
+build_msvc/
+
+# LemLib source (junction to local checkout — not part of this repo)
+lemlib-src/
+
+# Installer output
+installer/VexSimSetup.exe
+
+# VS Code extension build artifacts
+vscode-extension/out/
+vscode-extension/*.vsix
+vscode-extension/node_modules/
+
+# Claude session data
 .claude/
-.build/
-.build_msvc/
-.installer/VexSimSetup.exe
+exe
