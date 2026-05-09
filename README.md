@@ -1,31 +1,12 @@
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -45,15 +26,11 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -61,7 +38,13 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#running-the-simulator">Running the Simulator</a></li>
+      </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -70,70 +53,90 @@
   </ol>
 </details>
 
-
+---
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Through my years competing in VEX, I noticed that a major limiting factor in the development speed of our robot was our inability to code and build in parallel. The programming team would have to wait for the build team to finish to start on their tasks, and doing both at the same time would slow everybody down. To solve this, I used some of the idle time I had waiting for our build teams building a simulator to parallelize build and programming operations. 
+During my years competing in VEX, one of the biggest bottlenecks I kept running into was that build and programming couldn't happen at the same time. The programming team had to wait for the build team to finish before they could start testing anything meaningful, and trying to do both simultaneously just slowed everyone down.
 
-While the simulator can be useful, it should only be used as a starting point. Almost always, the code will need to be refined after succeeding in the simulator.
+I built VexSim during that idle time to close that gap — it lets programmers iterate on real PROS project code against a simulated robot while the physical build is still in progress.
+
+> **Note:** VexSim is a starting point, not a replacement for on-robot testing. Code will almost always need further tuning once it's running on real hardware.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get started, follow the installation steps:
-
 ### Prerequisites
-This project requires CMake and MSYS2, along with some additional libraries. There are several ways to install the prerequisites:
 
-#### 1. Automatic Installation (reccomended)
-This is the simplest method. Simply download VexSimSetup.exe from releases. If you do not have the prerequisites, you will be prompted to automatically install them. Click yes, and then prerequisites will be installed.
-#### 2. Powershell Installation
-You may also run the following command in [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.6#run-from-the-start-menu) to install all prerequisites:
+VexSim requires CMake, MSYS2, and a few additional libraries. Choose whichever installation method works best for you:
+
+#### Option 1 — Installer (Recommended)
+
+Download **VexSimSetup.exe** from [releases](https://github.com/AviSelvakumar/VexSim/releases). If prerequisites are missing, you'll be prompted to install them automatically.
+
+#### Option 2 — PowerShell
+
+Run the following in [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.6#run-from-the-start-menu):
+
 ```powershell
 winget install Kitware.CMake MSYS2.MSYS2 --accept-package-agreements --accept-source-agreements --silent
 C:\msys64\usr\bin\pacman.exe -S --noconfirm mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2
 $p = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
 if ($p -notlike "*ucrt64\bin*") { [System.Environment]::SetEnvironmentVariable("Path", $p + ";C:\msys64\ucrt64\bin", "Machine") }
 ```
-#### 3. Manual Installation
-Alternatively, 
-2. Install [CMake](https://cmake.org/download/), check "Add to PATH" during install
-3. Install [MSYS2](https://www.msys2.org/), then run the app and type in the following command to install all required libraries:
-`pacman -S mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2`
-4. Add C:\msys64\ucrt64\bin to the Windows system PATH ([How to Add Executable to your PATH in Windows](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53))
+
+#### Option 3 — Manual
+
+1. Install [CMake](https://cmake.org/download/) — check "Add to PATH" during setup
+2. Install [MSYS2](https://www.msys2.org/), then open it and run:
+   ```
+   pacman -S mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-lld mingw-w64-ucrt-x86_64-SDL2
+   ```
+3. Add `C:\msys64\ucrt64\bin` to your Windows system PATH ([guide](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53))
 
 ### Installation
 
-1. Download the latest installer from releases
+1. Download the latest installer from [releases](https://github.com/AviSelvakumar/VexSim/releases)
 2. Run the installer and follow the prompts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
-To access the extention, open a PROS project in VSCode, and a button in the bottom-left corner will appear reading "Run Sim.":
 
-<img width="293" height="153" alt="image" src="https://github.com/user-attachments/assets/09d3ae64-99bc-4b1d-99e3-b74ce24dc1c9" />
+Open a PROS project in VSCode. A **"Run Sim"** button will appear in the bottom-left status bar:
+
+<img width="293" height="153" alt="Run Sim button" src="https://github.com/user-attachments/assets/09d3ae64-99bc-4b1d-99e3-b74ce24dc1c9" />
 
 ### Configuration
-First, ensure that you are within a PROS project. Next, right-click on the "Run Sim" button and select "Manage Extention." After clicking manage extention, click on the settings icon below the extention title:
-<img width="1920" height="1020" alt="Screenshot 2026-05-09 145750" src="https://github.com/user-attachments/assets/ff972f8b-d459-430a-8fd7-3814b862c842" />
-</br>
-After clicking the settings icon, click "Settings" from the menu that appears:
-</br>
-<img width="1920" height="1020" alt="Screenshot 2026-05-09 145814" src="https://github.com/user-attachments/assets/f556f823-715f-4794-833c-657ce0cbac02" />
-</br>
-You should now be in the extention settings menu. From here, configure the drive and tracking ports to match your code, along with physical dimensions. _**Your code shouldn't reverse any drive motors.**_
+
+Before running the simulator for the first time, configure it to match your robot:
+
+1. Right-click **"Run Sim"** → **Manage Extension**
+2. Click the settings icon beneath the extension title:
+
+<img width="1920" height="1020" alt="Extension settings icon" src="https://github.com/user-attachments/assets/ff972f8b-d459-430a-8fd7-3814b862c842" />
+
+3. Select **Settings** from the menu:
+
+<img width="1920" height="1020" alt="Settings menu" src="https://github.com/user-attachments/assets/f556f823-715f-4794-833c-657ce0cbac02" />
+
+4. Set your drive motor ports, tracking wheel ports, and physical robot dimensions to match your code.
+
+> **Important:** Do not reverse any drive motors in code!
 
 ### Running the Simulator
-Click on the "Run Simulator" project to build your project and launch the simulator. You can use the following controls within the simulator:
+
+Click **"Run Simulator"** to build your project and launch the simulator window.
+
+#### Controls
 
 | Key | Action |
 |-----|--------|
@@ -141,14 +144,8 @@ Click on the "Run Simulator" project to build your project and launch the simula
 | **F6** | Opcontrol mode |
 | **F7** | Disable |
 | **ESC** | Quit |
-| **W** | Left stick up |
-| **S** | Left stick down |
-| **A** | Left stick left |
-| **D** | Left stick right |
-| **↑** | Right stick up |
-| **↓** | Right stick down |
-| **←** | Right stick left |
-| **→** | Right stick right |
+| **W / S / A / D** | Left stick |
+| **↑ / ↓ / ← / →** | Right stick |
 | **L** | L1 |
 | **;** | L2 |
 | **P** | R1 |
@@ -158,51 +155,50 @@ Click on the "Run Simulator" project to build your project and launch the simula
 | **3** | Y button |
 | **4** | A button |
 
-Note that currently, _**the only supported library outside of PROS is LemLib**_. Adding libraries is fairly straightforward (directions are under [Contributing](#contributing)). If you do add support for another library yourself, please submit a PR! It would really help a lot. If you want a library added, open up an issue or contact me otherwise and I would be more than happy to add it in for you (give me like a week).
+#### Supported Libraries
 
+Currently, **the only supported library beyond PROS itself is [LemLib](https://github.com/LemLib/LemLib)**. Adding support for other libraries is straightforward — see [Contributing](#contributing) for instructions. If you add one, please submit a PR! If you'd like a specific library added, open an issue or reach out and I'll add it (allow about a week).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Support for more libraries
 - [ ] Proper drivetrain gear ratio support
-- [ ] Support for 5.5w motors
-- [ ] Controller support
+- [ ] Support for 5.5W motors
+- [ ] Physical controller input
 
-See the [open issues](https://github.com/AviSelvakumar/VexSim/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/AviSelvakumar/VexSim/issues) for a full list of proposed features and known bugs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion, fork the repo and open a pull request, or open an issue with the tag `enhancement`. Don't forget to star the project!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the project
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a pull request
 
-### Adding New Libraries
+### Adding Library Support
 
 **1. Get the library source**
 
 Clone or download it somewhere on your machine, e.g. `C:\MyLib-1.0.0`.
 
+**2. Create a wrapper `CMakeLists.txt`**
 
-**2. Create a wrapper CMakeLists.txt**
-
-Add a new directory in the project, e.g. `mylib/`, with a `CMakeLists.txt` modelled on `lemlib/CMakeLists.txt`:
+Add a new directory to the project (e.g. `mylib/`) with a `CMakeLists.txt` modelled on `lemlib/CMakeLists.txt`:
 
 ```cmake
 if(NOT DEFINED MYLIB_DIR OR MYLIB_DIR STREQUAL "")
@@ -219,94 +215,88 @@ target_include_directories(mylib BEFORE PRIVATE ${CMAKE_SOURCE_DIR}/stubs/includ
 
 target_link_libraries(mylib PUBLIC pros_stubs Threads::Threads)
 target_compile_features(mylib PUBLIC cxx_std_17)
-target_compile_options(mylib PRIVATE -w)  # suppress warnings in library code
+target_compile_options(mylib PRIVATE -w)
 ```
 
-
-**3. Register it in the top-level CMakeLists.txt**
+**3. Register it in the top-level `CMakeLists.txt`**
 
 ```cmake
 add_subdirectory(mylib)
 ```
 
-
 **4. Link it to robot code**
 
 In `robot/CMakeLists.txt`, add it alongside lemlib:
+
 ```cmake
 target_link_libraries(robot_code PRIVATE mylib)
 ```
 
-
 **5. Add the preset variable**
 
 In `CMakePresets.json`, add `MYLIB_DIR` to the `msys2-ucrt64-lemlib` preset:
+
 ```json
 "MYLIB_DIR": "${sourceDir}/mylib-src"
 ```
 
-
-**6. Create the junction on your dev machine**
+**6. Create a junction on your dev machine**
 
 ```powershell
 New-Item -ItemType Junction -Path "C:\VEX Sim\mylib-src" -Target "C:\MyLib-1.0.0"
 ```
 
-
 **7. Add to the installer**
 
 In `installer/VexSim.iss`, add a `[Files]` entry:
+
 ```
 Source: "C:\MyLib-1.0.0\*"; DestDir: "{app}\mylib-src"; Flags: ignoreversion recursesubdirs
 ```
 
-
 **8. Add stubs if needed**
 
-If the library calls PROS APIs that the stubs don't implement yet, you'll see linker errors. Add the missing functions to the appropriate file in `stubs/src/` — they just need to return a sensible default value.
+If the library calls PROS APIs not yet covered by the stubs, you'll get linker errors. Add the missing functions to the appropriate file in `stubs/src/` — they just need to return a sensible default value.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
+### Top Contributors
 
 <a href="https://github.com/AviSelvakumar/VexSim/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AviSelvakumar/VexSim" />
 </a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL V3 License. See `LICENSE.txt` for more information.
+Distributed under the GPL v3 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 <!-- CONTACT -->
 ## Contact
 
-Avinash Selvakumar - [@avinashselvakumar](https://discord.com/users/897920475269853205) - [aviselvak@avinashselvakumar.me](mailto:aviselvak@avinashselvakumar.me)
+Avinash Selvakumar — [@avinashselvakumar](https://discord.com/users/897920475269853205) — [aviselvak@avinashselvakumar.me](mailto:aviselvak@avinashselvakumar.me)
 
 Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSelvakumar/VexSim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+---
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [PROS Team at Purdue](https://github.com/purduesigbots/pros)
-* [LemLib](https://github.com/LemLib/LemLib)
+- [PROS Team at Purdue](https://github.com/purduesigbots/pros)
+- [LemLib](https://github.com/LemLib/LemLib)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/AviSelvakumar/VexSim.svg?style=for-the-badge
 [contributors-url]: https://github.com/AviSelvakumar/VexSim/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AviSelvakumar/VexSim.svg?style=for-the-badge
@@ -317,4 +307,3 @@ Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSe
 [issues-url]: https://github.com/AviSelvakumar/VexSim/issues
 [license-shield]: https://img.shields.io/github/license/AviSelvakumar/VexSim.svg?style=for-the-badge
 [license-url]: https://github.com/AviSelvakumar/VexSim/blob/master/LICENSE
-[product-screenshot]: images/screenshot.png
