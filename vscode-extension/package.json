@@ -1,9 +1,11 @@
 {
-  "name": "vex-sim-runner",
-  "displayName": "VEX Sim Runner",
-  "publisher": "local",
+  "name": "vex-sim",
+  "displayName": "VexSim",
+  "publisher": "AvinashSelvakumar",
+  "repository": {"url": "https://github.com/AviSelvakumar/VexSim.git"},
+  "license": "GPL-3.0-only",
   "description": "Build and launch the VEX V5 simulator from a PROS project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Other"],
   "activationEvents": [
@@ -15,16 +17,15 @@
       {
         "command": "vexsim.run",
         "title": "VEX Sim: Build & Run"
+      },
+      {
+        "command": "vexsim.setup",
+        "title": "VEX Sim: Setup"
       }
     ],
     "configuration": {
       "title": "VEX Sim Runner",
       "properties": {
-        "vexsim.simDirectory": {
-          "type": "string",
-          "default": "C:\\VEX Sim",
-          "description": "Absolute path to the root of the Vex Sim project (contains CMakeLists.txt)"
-        },
         "vexsim.cmakePreset": {
           "type": "string",
           "default": "msys2-ucrt64-lemlib",
@@ -126,7 +127,8 @@
   "scripts": {
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "package": "vsce package"
+    "prepare-sim": "node scripts/prepare-sim.js",
+    "package": "npm run compile && npm run prepare-sim && vsce package"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

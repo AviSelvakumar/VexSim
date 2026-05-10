@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "msvc-x64",
+      "displayName": "Visual Studio 2022 (MSVC x64)",
+      "generator": "NMake Makefiles",
+      "binaryDir": "${sourceDir}/build_msvc",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "msvc-x64-release",
+      "inherits": "msvc-x64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "msys2-ucrt64",
+      "displayName": "MSYS2 UCRT64 (g++ 14) — recommended",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER":       "C:/msys64/ucrt64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER":     "C:/msys64/ucrt64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM":     "C:/msys64/ucrt64/bin/mingw32-make.exe",
+        "CMAKE_BUILD_TYPE":       "Debug",
+        "SDL2_DIR":               "C:/msys64/ucrt64/lib/cmake/SDL2",
+        "CMAKE_EXE_LINKER_FLAGS": "-fuse-ld=lld"
+      }
+    },
+    {
+      "name": "msys2-ucrt64-lemlib",
+      "displayName": "MSYS2 UCRT64 + LemLib",
+      "inherits": "msys2-ucrt64",
+      "cacheVariables": {
+        "LEMLIB_DIR": "${sourceDir}/lemlib-src"
+      }
+    }
+  ]
+}
