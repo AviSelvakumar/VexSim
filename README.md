@@ -296,6 +296,16 @@ Project Link: [https://github.com/AviSelvakumar/VexSim](https://github.com/AviSe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Use of AI
+Claude was used for the following tasks:
+* Clarifying directions in README
+* Adding comments to code to make it easier to contribute
+* Light debugging (3 sessions)
+
+ChatGPT was consulted on mathematical explanations for physics. It did not contribute any code. VSCode's built-in AI autocomplete was also used. GitHub Copilot generated commit messages for some commits.
+
+I'm a strong believer in AI as a supplement to the developer rather than a full replacement. Programming is my passion, and I would never use AI to fully generate a project.
+
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/AviSelvakumar/VexSim.svg?style=for-the-badge
 [contributors-url]: https://github.com/AviSelvakumar/VexSim/graphs/contributors
