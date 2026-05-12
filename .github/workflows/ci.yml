@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── 1. TypeScript compile (fast, Linux) ─────────────────────────────────────
+  extension:
+    name: Extension – TypeScript
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: vscode-extension
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install
+      - run: npm run compile   # tsc — catches type errors without needing Windows
+
+  # ── 2. C++ sim build + VSIX package (Windows / MinGW) ───────────────────────
+  sim:
+    name: Sim – MinGW build + VSIX
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install MSYS2 UCRT64 toolchain (gcc, make, lld, SDL2)
+      - name: Set up MSYS2 UCRT64
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-make
+            mingw-w64-ucrt-x86_64-lld
+            mingw-w64-ucrt-x86_64-SDL2
+
+      # Make ucrt64 tools visible to cmake and the build
+      - name: Add UCRT64 to PATH
+        shell: pwsh
+        run: echo "C:\msys64\ucrt64\bin" | Out-File -Append -Encoding utf8 $env:GITHUB_PATH
+
+      # Download LemLib 0.5.6 into lemlib-src/ so the preset's ${sourceDir}/lemlib-src resolves
+      - name: Download LemLib 0.5.6
+        shell: pwsh
+        run: |
+          curl.exe -fsSL "https://github.com/LemLib/LemLib/archive/refs/tags/v0.5.6.zip" -o lemlib.zip
+          Expand-Archive -Path lemlib.zip -DestinationPath .
+          Move-Item -Path LemLib-0.5.6 -Destination lemlib-src
+
+      # cmake --preset reads CMakePresets.json in the repo root
+      - name: CMake configure
+        run: cmake --preset msys2-ucrt64-lemlib
+
+      - name: CMake build
+        run: cmake --build build --target vex_sim
+
+      # Package the VS Code extension (lemlib-src is already in the right place)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Package VSIX
+        working-directory: vscode-extension
+        run: npm install && npm run package
+
+      - name: Upload VSIX artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vex-sim-${{ github.sha }}
+          path: vscode-extension/*.vsix
+          retention-days: 14
