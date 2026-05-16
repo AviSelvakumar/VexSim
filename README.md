@@ -77,7 +77,7 @@ VexSim requires CMake, MSYS2, and a few additional libraries. Choose whichever i
 
 #### Option 1 — Installer (Recommended)
 
-Download **VexSimSetup.exe** from [releases](https://github.com/AviSelvakumar/VexSim/releases). If prerequisites are missing, you'll be prompted to install them automatically.
+Download the extention from [the VSCode Marketplace]([https://github.com/AviSelvakumar/VexSim/releases](https://marketplace.visualstudio.com/items?itemName=AvinashSelvakumar.vex-sim)), or search "VexSim" in the extensions tab. If prerequisites are missing, you'll be prompted to install them automatically.
 
 #### Option 2 — PowerShell
 
