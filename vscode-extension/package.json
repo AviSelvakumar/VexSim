@@ -57,6 +57,11 @@
           "default": 6,
           "description": "Total number of drive motors (left + right) — used for inertia calculation"
         },
+        "vexsim.robot.gearRatio": {
+          "type": "string",
+          "default": "1:1",
+          "description": "External drivetrain gear ratio: wheel RPM ÷ motor RPM. Enter as a ratio (e.g. \"36:48\") or a decimal (e.g. \"0.75\"). >1 = speed geared, <1 = torque geared."
+        },
         "vexsim.robot.gearFriction": {
           "type": "number",
           "default": 0.15,
@@ -68,13 +73,13 @@
           "type": "array",
           "items": { "type": "number" },
           "default": [4, 5, 6],
-          "description": "Left drive motor port numbers (up to 4)"
+          "description": "Left drive motor port numbers (up to 4). Use negative numbers for reversed motors — matches PROS convention (e.g. [-4, -5, -6])."
         },
         "vexsim.robot.rightPorts": {
           "type": "array",
           "items": { "type": "number" },
           "default": [1, 2, 3],
-          "description": "Right drive motor port numbers (up to 4)"
+          "description": "Right drive motor port numbers (up to 4). Use negative numbers for reversed motors — matches PROS convention (e.g. [-1, -2, -3])."
         },
         "vexsim.robot.trackingLeftPort": {
           "type": "number",

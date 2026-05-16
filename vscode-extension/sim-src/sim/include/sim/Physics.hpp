@@ -11,6 +11,7 @@ struct RobotConfig {
     double track_width_px  = 60.0;   // pixels between left/right wheel centers
     double wheel_radius_px = 15.0;   // pixel radius of each drive wheel
     double max_rpm         = 200.0;  // baseline gearset RPM
+    double gear_ratio      = 1.0;   // wheel_rpm / motor_rpm  (>1 = speed, <1 = torque)
     double accel_time_constant  = 0.15; // seconds to reach ~63% of max speed (powered / braking)
     double coast_time_constant  = 1.5;  // seconds to coast to rest (motor disconnected, friction only)
     double gear_friction_coeff  = 0.0;  // 0..1 — fraction of max back-EMF added by gear mesh friction

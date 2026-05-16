@@ -59,16 +59,18 @@ static sim::RobotConfig buildConfig(int argc, char** argv) {
     cfg.robot_half_w              = (robot_width_in  / 2.0) * 5.0;
     cfg.robot_half_h              = (robot_height_in / 2.0) * 5.0;
 
-    cfg.max_rpm           = dbl("--max-rpm",      600.0);
+    cfg.max_rpm             = dbl("--max-rpm",      600.0);
+    cfg.gear_ratio          = dbl("--gear-ratio",   1.0);
     cfg.gear_friction_coeff = dbl("--gear-friction", 0.0);
     cfg.field_w    = 720.0;
     cfg.field_h    = 720.0;
 
     // Inertia — tau = m * v_max² / (4 * N * P)
+    // v_max uses the effective wheel RPM (motor RPM × gear ratio)
     double mass_kg         = dbl("--mass",         10.0);
     double drive_motors    = dbl("--drive-motors",  6.0);
     double r_m             = (cfg.wheel_radius_px / 5.0) * 0.0254;
-    double v_max           = (cfg.max_rpm / 60.0) * 2.0 * M_PI * r_m;
+    double v_max           = (cfg.max_rpm * cfg.gear_ratio / 60.0) * 2.0 * M_PI * r_m;
     cfg.accel_time_constant = (mass_kg * v_max * v_max) / (4.0 * drive_motors * 11.0);
 
     // Motor ports
@@ -122,6 +124,17 @@ int main(int argc, char* argv[]) {
     }
 
     sim::RobotConfig cfg = buildConfig(argc, argv);
+
+    // Pre-set reversed flags from signed port numbers so Physics and stubs
+    // agree before initialize() runs.  Negative port = reversed motor.
+    for (int port : cfg.left_ports) {
+        if (port == 0) break;
+        if (port < 0) sim::SimState::get().motors[-port].reversed.store(true);
+    }
+    for (int port : cfg.right_ports) {
+        if (port == 0) break;
+        if (port < 0) sim::SimState::get().motors[-port].reversed.store(true);
+    }
 
     // Start pose — coordinates in inches from field center (LemLib convention:
     // X right, Y up, heading 0° = North/up, clockwise-positive).

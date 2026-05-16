@@ -177,6 +177,16 @@ function installPrerequisites() {
         proc.on('close', code => resolve(code === 0));
     });
 }
+function parseGearRatio(raw) {
+    const s = String(raw ?? '1:1').trim();
+    if (s.includes(':')) {
+        const [a, b] = s.split(':').map(Number);
+        if (!isNaN(a) && !isNaN(b) && b > 0)
+            return a / b;
+    }
+    const n = parseFloat(s);
+    return isNaN(n) || n <= 0 ? 1.0 : n;
+}
 // ── Tool resolution ───────────────────────────────────────────────────────────
 function findCmake() {
     const candidates = [
@@ -270,6 +280,7 @@ async function runSim(context) {
         '--wheel-radius', String(r.get('robot.wheelRadiusIn', 1.625)),
         '--track-width', String(r.get('robot.trackWidthIn', 12.0)),
         '--max-rpm', String(r.get('robot.maxRpm', 600)),
+        '--gear-ratio', String(parseGearRatio(r.get('robot.gearRatio', '1:1'))),
         '--mass', String(r.get('robot.massKg', 10.0)),
         '--drive-motors', String(r.get('robot.driveMotorCount', 6)),
         '--gear-friction', String(r.get('robot.gearFriction', 0.15)),

@@ -33,8 +33,9 @@ double Physics::averageEffectiveVoltage(const std::array<int, 4>& ports, double 
     double sum = 0.0;
     int count  = 0;
     for (int port : ports) {
-        if (port <= 0) break;
-        sum += SimState::get().motors[port].get_effective_voltage(speed_frac, cfg_.gear_friction_coeff);
+        if (port == 0) break;
+        int idx = std::abs(port);
+        sum += SimState::get().motors[idx].get_effective_voltage(speed_frac, cfg_.gear_friction_coeff);
         ++count;
     }
     return count > 0 ? sum / count : 0.0;
@@ -42,8 +43,8 @@ double Physics::averageEffectiveVoltage(const std::array<int, 4>& ports, double 
 
 bool Physics::allCoast(const std::array<int, 4>& ports) const {
     for (int port : ports) {
-        if (port <= 0) break;
-        if (SimState::get().motors[port].brake_mode_int.load() >= 1) return false;
+        if (port == 0) break;
+        if (SimState::get().motors[std::abs(port)].brake_mode_int.load() >= 1) return false;
     }
     return true;
 }
@@ -51,9 +52,10 @@ bool Physics::allCoast(const std::array<int, 4>& ports) const {
 void Physics::step(double dt_sec) {
     auto& state = SimState::get();
 
-    // Max linear wheel speed in pixels/sec
+    // Max linear wheel speed in pixels/sec.
+    // gear_ratio = wheel_rpm / motor_rpm, so effective wheel RPM = max_rpm * gear_ratio.
     double wheel_circ = 2.0 * M_PI * cfg_.wheel_radius_px;
-    double max_speed  = (cfg_.max_rpm / 60.0) * wheel_circ;
+    double max_speed  = (cfg_.max_rpm * cfg_.gear_ratio / 60.0) * wheel_circ;
 
     // Motors report their own effective voltage:
     //   - Powered:     commanded voltage (normal drive)
@@ -128,16 +130,19 @@ void Physics::step(double dt_sec) {
                                   cfg_.field_h - cfg_.robot_half_h);
     }
 
-    // Update motor encoder positions
+    // Update motor encoder positions.
+    // The motor shaft turns at wheel_speed / gear_ratio — a torque-geared motor
+    // (gear_ratio < 1) spins faster than the wheel, so encoders advance more per inch.
+    // Negative port → reversed motor → encoder sign is flipped (shaft rotates opposite to wheel).
     for (int port : cfg_.left_ports) {
-        if (port <= 0) break;
-        double deg_per_sec = (vL / wheel_circ) * 360.0;
-        state.motors[port].add_position_deg(deg_per_sec * dt_sec);
+        if (port == 0) break;
+        double deg_per_sec = (vL / wheel_circ) * 360.0 / cfg_.gear_ratio;
+        state.motors[std::abs(port)].add_position_deg((port < 0 ? -1.0 : 1.0) * deg_per_sec * dt_sec);
     }
     for (int port : cfg_.right_ports) {
-        if (port <= 0) break;
-        double deg_per_sec = (vR / wheel_circ) * 360.0;
-        state.motors[port].add_position_deg(deg_per_sec * dt_sec);
+        if (port == 0) break;
+        double deg_per_sec = (vR / wheel_circ) * 360.0 / cfg_.gear_ratio;
+        state.motors[std::abs(port)].add_position_deg((port < 0 ? -1.0 : 1.0) * deg_per_sec * dt_sec);
     }
 
     // Update dedicated tracking wheel rotation sensors (non-motor ports).

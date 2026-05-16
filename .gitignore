@@ -13,6 +13,7 @@ vscode-extension/out/
 vscode-extension/*.vsix
 vscode-extension/node_modules/
 
-# Claude session data
 .claude/
 exe
+
+.cache/
