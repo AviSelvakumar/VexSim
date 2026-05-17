@@ -130,8 +130,6 @@ Before running the simulator for the first time, configure it to match your robo
 
 4. Set your drive motor ports, tracking wheel ports, and physical robot dimensions to match your code.
 
-> **Important:** Do not reverse any drive motors in code!
-
 ### Running the Simulator
 
 Click **"Run Simulator"** to build your project and launch the simulator window.
