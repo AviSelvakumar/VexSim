@@ -9,6 +9,8 @@
 [![project_license][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
+
+
 <br />
 <div align="center">
   <a href="https://github.com/AviSelvakumar/VexSim">
@@ -25,6 +27,7 @@
     <a href="https://github.com/AviSelvakumar/VexSim/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
+<img width="720" height="383" alt="demo-ezgif com-cut" src="https://github.com/user-attachments/assets/614c136f-e5bb-4f3b-9004-aa94af27986d"/>
 
 <!-- TABLE OF CONTENTS -->
 <details>
