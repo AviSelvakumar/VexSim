@@ -9,8 +9,6 @@
 [![project_license][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
-
-
 <br />
 <div align="center">
   <a href="https://github.com/AviSelvakumar/VexSim">
@@ -27,7 +25,6 @@
     <a href="https://github.com/AviSelvakumar/VexSim/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-<img width="720" height="383" alt="demo-ezgif com-cut" src="https://github.com/user-attachments/assets/614c136f-e5bb-4f3b-9004-aa94af27986d"/>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -80,7 +77,7 @@ VexSim requires CMake, MSYS2, and a few additional libraries. Choose whichever i
 
 #### Option 1 — Installer (Recommended)
 
-Download the extention from [the VSCode Marketplace]([https://github.com/AviSelvakumar/VexSim/releases](https://marketplace.visualstudio.com/items?itemName=AvinashSelvakumar.vex-sim)), or search "VexSim" in the extensions tab. If prerequisites are missing, you'll be prompted to install them automatically.
+Download **VexSimSetup.exe** from [releases](https://github.com/AviSelvakumar/VexSim/releases). If prerequisites are missing, you'll be prompted to install them automatically.
 
 #### Option 2 — PowerShell
 
@@ -132,6 +129,8 @@ Before running the simulator for the first time, configure it to match your robo
 <img width="1920" height="1020" alt="Settings menu" src="https://github.com/user-attachments/assets/f556f823-715f-4794-833c-657ce0cbac02" />
 
 4. Set your drive motor ports, tracking wheel ports, and physical robot dimensions to match your code.
+
+> **Important:** Do not reverse any drive motors in code!
 
 ### Running the Simulator
 
